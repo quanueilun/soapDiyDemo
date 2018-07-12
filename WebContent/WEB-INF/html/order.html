@@ -1,0 +1,1746 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width,initail-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no" />
+<script src="<c:url value="/js/jquery.js"/>"></script>
+<script src="<c:url value="/js/nav.js"/>"></script>
+<title>订单管理</title>
+<style>
+*{
+	padding:0;
+	margin:0;
+}
+body{
+	color:#FFF;
+	font-family:"微软雅黑";
+}
+a{
+	text-decoration:none;
+	color:#FFF;
+	font-size:12px;
+
+
+}
+@media screen and (min-width:1366px){
+	#box{
+		width:auto;
+		height:auto;
+	}
+	#header ul{
+		margin-left:750px;
+		position:absolute;
+		top:0px;
+	}
+	#header ul li a{
+		font-size:5px;
+		height:20px;
+		width:60px;
+		display:block;
+		text-align:center;
+		line-height:25px;
+		padding:0px 10px;
+	}
+	#order-status ul p .s-btn{
+	display:inline-block;
+	width:25%;
+	height:22px;
+	border:none;
+	background:#f8f8f8;
+
+
+}
+#ul-3 .h{
+	color:#78a4e0;
+	border-bottom:1px solid #78a4e0;
+}
+#ul-3 li:hover{
+	border-bottom:1px solid #78a4e0;
+		color:#78a4e0;
+		cursor:pointer;
+}
+#order-status table{
+
+		width:94%;
+}
+#t-header{
+	background:#79a4df;
+	color:#FFF;
+	height:42px;
+	width:94%;
+
+	position:relative;
+	
+}
+#order-status ul p{
+	display:inline-block;
+	border:1px solid #CCC;
+	float:right;
+	width:30%;
+	margin-right:6%;
+
+	margin-top:9px;
+
+
+}
+#order-status #t-header span{
+	display:inline-block;
+	line-height:42px;
+
+
+	
+}
+#order-status table tr{
+background:#f8f8f8;
+
+
+}
+#order-status table td{
+	
+	height:32px;
+	text-align:center;
+		font-size:0.8em;
+		color:#666;
+
+}
+#order-status table td img{
+
+	width:16%;
+	height:80px;
+	vertical-align:middle;
+	float:left;
+	
+	margin-right:10px;
+	margin-left:10px;
+
+
+	
+}
+ table td .goods-name{
+	display:inline-block;
+	width:35%;
+	height:20px;
+	font-size:13px;
+	font-weight:bold;
+	color:#333;
+	overflow:hidden;
+	
+
+
+}
+ table td .goods-text{
+	display:inline-block;
+	width:35%;
+	height:50px;
+	font-size:12px;
+	text-align:left;
+word-break:break-all;
+
+}
+.td-1,.td-2,.td-3{
+	text-indent:2.5%;
+}
+.td-1{
+
+	width:20%;
+	
+}
+
+ .td-1 input{
+	vertical-align:middle;
+	background:#FFF;
+}
+ .td-2{
+	width:60%;
+
+
+
+
+
+}
+ .td-3{
+	width:15%;
+	float:right;
+	text-align:center;
+	
+
+}
+
+
+#order-status table .order-date td{
+	text-align:left;
+	text-indent:1%;
+
+	
+}
+#order-status table .order-date .date{
+	width:12%;
+}
+#order-status table .order-date .oid{
+	
+	width:70%;
+	
+}
+#order-status table .order-date .btn{
+	width:13%;
+}
+#order-status table .order-date .btn img{
+	cursor:pointer;
+	width:25%;
+	height:20px;
+	float:right;
+}
+.order-info td{
+	padding:20px 0;
+}
+	#footer ul{
+		display:inline-block;
+	
+		list-style:none;
+	
+	
+		margin:25px auto 0 auto;
+	}
+
+	#footer ul li{
+		float:left;
+	}
+	#footer ul li a{
+		color:#000;
+		font-size:15px;
+		margin-right:20px;
+		
+	}
+	#footer p{
+		color:#999;
+		font-size:14px;
+		text-align:center;
+		margin-top:20px;
+		text-height:14px;
+	
+	}
+}
+@media screen and (max-width:1365px) and (min-width: 1280px){
+	#box{
+		width:auto;
+		height:auto;
+	}
+	#header ul{
+		margin-left:650px;
+		position:absolute;
+		top:0px;
+	}
+	#header ul li a{
+	font-size:5px;
+	height:20px;
+	width:60px;
+	display:block;
+	text-align:center;
+	line-height:25px;
+	padding:0px 10px;
+	
+}
+#order-status ul p .s-btn{
+	display:inline-block;
+	width:25%;
+	height:22px;
+	border:none;
+	background:#f8f8f8;
+
+
+}
+#ul-3 .h{
+	color:#78a4e0;
+	border-bottom:1px solid #78a4e0;
+}
+#ul-3 li:hover{
+	border-bottom:1px solid #78a4e0;
+		color:#78a4e0;
+		cursor:pointer;
+}
+#order-status table{
+
+		width:94%;
+}
+#order-status ul p{
+	display:inline-block;
+	border:1px solid #CCC;
+	float:right;
+	width:30%;
+	margin-right:6%;
+
+	margin-top:9px;
+
+
+}
+#t-header{
+	background:#79a4df;
+	color:#FFF;
+	height:42px;
+	width:94%;
+	margin:0;
+	position:relative;
+	
+}
+#order-status ul p{
+	display:inline-block;
+	border:1px solid #CCC;
+	float:right;
+	width:30%;
+	margin-right:6%;
+
+	margin-top:9px;
+	
+}
+#order-status #t-header span{
+	display:inline-block;
+	line-height:42px;
+
+
+	
+}
+#order-status table tr{
+background:#f8f8f8;
+
+
+}
+#order-status table td{
+	
+	height:32px;
+	text-align:center;
+		font-size:0.8em;
+		color:#666;
+
+}
+#order-status table td img{
+
+	width:16%;
+	height:80px;
+	vertical-align:middle;
+	float:left;
+	
+	margin-right:10px;
+	margin-left:10px;
+
+
+	
+}
+ table td .goods-name{
+	display:inline-block;
+	width:35%;
+	height:20px;
+	font-size:13px;
+	font-weight:bold;
+	color:#333;
+	overflow:hidden;
+	
+
+
+}
+ table td .goods-text{
+	display:inline-block;
+	width:35%;
+	height:50px;
+	font-size:12px;
+	text-align:left;
+word-break:break-all;
+
+}
+.td-1,.td-2,.td-3{
+	text-indent:2.5%;
+}
+.td-1{
+
+	width:20%;
+	
+}
+
+ .td-1 input{
+	vertical-align:middle;
+	background:#FFF;
+}
+ .td-2{
+	width:55%;
+
+
+
+
+
+}
+ .td-3{
+	width:20%;
+	float:right;
+	text-align:center;
+	
+
+}
+
+
+#order-status table .order-date td{
+	text-align:left;
+	text-indent:1%;
+
+	
+}
+#order-status table .order-date .date{
+	width:12%;
+}
+#order-status table .order-date .oid{
+	
+	width:70%;
+	
+}
+#order-status table .order-date .btn{
+	width:13%;
+}
+#order-status table .order-date .btn img{
+	cursor:pointer;
+	width:25%;
+	height:20px;
+	float:right;
+}
+.order-info td{
+	padding:20px 0;
+}
+}
+@media screen and (max-width:1279px) and (min-width: 1179px){
+	#box{
+		width:auto;
+		height:auto;
+	}
+	#header ul{
+		margin-left:600px;
+		position:absolute;
+		top:0px;
+	}
+	#header ul li a{
+	font-size:5px;
+	height:20px;
+	width:60px;
+	display:block;
+	text-align:center;
+	line-height:25px;
+	padding:0px 10px;
+	
+}
+#order-status ul p .s-btn{
+	display:inline-block;
+	width:25%;
+	height:22px;
+	border:none;
+	background:#f8f8f8;
+
+
+}
+#ul-3 .h{
+	color:#78a4e0;
+	border-bottom:1px solid #78a4e0;
+}
+#ul-3 li:hover{
+	border-bottom:1px solid #78a4e0;
+		color:#78a4e0;
+		cursor:pointer;
+}
+#order-status ul p{
+	display:inline-block;
+	border:1px solid #CCC;
+	float:right;
+	width:30%;
+	margin-right:6%;
+
+	margin-top:9px;
+
+
+}
+#order-status table{
+
+		width:94%;
+}
+#t-header{
+	background:#79a4df;
+	color:#FFF;
+	height:42px;
+	width:94%;
+	margin:0;
+	position:relative;
+	
+}
+#order-status ul p{
+	display:inline-block;
+	border:1px solid #CCC;
+	float:right;
+	width:30%;
+	margin-right:6%;
+
+	margin-top:9px;
+
+
+}
+#order-status #t-header span{
+	display:inline-block;
+	line-height:42px;
+
+
+	
+}
+#order-status table tr{
+background:#f8f8f8;
+
+
+}
+#order-status table td{
+	
+	height:32px;
+	text-align:center;
+		font-size:0.8em;
+		color:#666;
+
+}
+#order-status table td img{
+
+	width:16%;
+	height:80px;
+	vertical-align:middle;
+	float:left;
+	
+	margin-right:10px;
+	margin-left:10px;
+
+
+	
+}
+ table td .goods-name{
+	display:inline-block;
+	width:35%;
+	height:20px;
+	font-size:13px;
+	font-weight:bold;
+	color:#333;
+	overflow:hidden;
+	
+
+
+}
+ table td .goods-text{
+	display:inline-block;
+	width:35%;
+	height:50px;
+	font-size:12px;
+	text-align:left;
+word-break:break-all;
+
+}
+.td-1,.td-2,.td-3{
+	text-indent:2.5%;
+}
+.td-1{
+
+	width:15%;
+	
+}
+
+ .td-1 input{
+	vertical-align:middle;
+	background:#FFF;
+}
+ .td-2{
+	width:60%;
+
+
+
+
+
+}
+ .td-3{
+	width:20%;
+	float:right;
+	text-align:center;
+	
+
+}
+
+
+#order-status table .order-date td{
+	text-align:left;
+	text-indent:1%;
+
+	
+}
+#order-status table .order-date .date{
+	width:12%;
+}
+#order-status table .order-date .oid{
+	
+	width:70%;
+	
+}
+#order-status table .order-date .btn{
+	width:13%;
+}
+#order-status table .order-date .btn img{
+	cursor:pointer;
+	width:20%;
+	height:20px;
+	float:left;
+	text-align:left;
+}
+.order-info td{
+	padding:20px 0;
+}
+}
+@media screen and (max-width:1178px) and (min-width: 1024px){
+	#box{
+		width:auto;
+		height:auto;
+	}
+	#header ul{
+		margin-left:500px;
+		position:absolute;
+		top:0px;
+	}
+	#header ul li a{
+	font-size:5px;
+	height:20px;
+	width:60px;
+	display:block;
+	text-align:center;
+	line-height:25px;
+	padding:0px 10px;
+	
+}
+#order-status ul p .s-btn{
+	display:inline-block;
+	width:25%;
+	height:22px;
+	border:none;
+	background:#f8f8f8;
+
+
+}
+#ul-3 .h{
+	color:#78a4e0;
+	border-bottom:1px solid #78a4e0;
+}
+#ul-3 li:hover{
+	border-bottom:1px solid #78a4e0;
+		color:#78a4e0;
+		cursor:pointer;
+}
+#order-status table{
+
+		width:94%;
+}
+#order-status ul p{
+	display:inline-block;
+	border:1px solid #CCC;
+	float:right;
+	width:30%;
+	margin-right:6%;
+
+	margin-top:9px;
+
+
+}
+#t-header{
+	background:#79a4df;
+	color:#FFF;
+	height:42px;
+	width:94%;
+	margin:0;
+	position:relative;
+	
+}
+#order-status #t-header span{
+	display:inline-block;
+	line-height:42px;
+
+
+	
+}
+#order-status table tr{
+background:#f8f8f8;
+
+
+}
+#order-status table td{
+	
+	height:32px;
+	text-align:center;
+		font-size:0.8em;
+		color:#666;
+
+}
+#order-status table td img{
+
+	width:16%;
+	height:80px;
+	vertical-align:middle;
+	float:left;
+	
+	margin-right:10px;
+	margin-left:10px;
+
+
+	
+}
+ table td .goods-name{
+	display:inline-block;
+	width:35%;
+	height:20px;
+	font-size:13px;
+	font-weight:bold;
+	color:#333;
+	overflow:hidden;
+	
+
+
+}
+ table td .goods-text{
+	display:inline-block;
+	width:35%;
+	height:50px;
+	font-size:12px;
+	text-align:left;
+word-break:break-all;
+
+}
+.td-1,.td-2,.td-3{
+	text-indent:2%;
+	font-size:14px;
+}
+.td-1{
+
+	width:20%;
+
+}
+
+ .td-1 input{
+	vertical-align:middle;
+	background:#FFF;
+}
+ .td-2{
+	width:55%;
+
+
+
+
+}
+ .td-3{
+	width:20%;
+	float:right;
+	text-align:center;
+
+}
+
+
+#order-status table .order-date td{
+	text-align:left;
+	text-indent:1%;
+
+	
+}
+#order-status table .order-date .date{
+	width:12%;
+}
+#order-status table .order-date .oid{
+	
+	width:70%;
+	
+}
+#order-status table .order-date .btn{
+	width:13%;
+}
+#order-status table .order-date .btn img{
+	width:20%;
+	height:25px;
+	vertical-align:middle;
+	float:left;
+	
+	margin-right:10px;
+	margin-left:10px;
+
+
+	
+}
+.order-info td{
+	padding:20px 0;
+}
+}
+@media screen and (max-width:1023px) and (min-width: 900px){
+	#box{
+		width:auto;
+		height:auto;
+	}
+	#header ul{
+		margin-left:350px;
+		position:absolute;
+		top:0px;
+	}
+	#header ul li a{
+	font-size:5px;
+	height:20px;
+	width:60px;
+	display:block;
+	text-align:center;
+	line-height:25px;
+	padding:0px 10px;
+	
+}
+#order-status ul p{
+	display:inline-block;
+	border:1px solid #CCC;
+	float:right;
+	width:30%;
+	margin-right:6%;
+
+	margin-top:9px;
+
+
+}
+#order-status ul p .s-btn{
+	display:inline-block;
+	width:25%;
+	height:22px;
+	border:none;
+	background:#f8f8f8;
+
+
+}
+#ul-3 .h{
+	color:#78a4e0;
+	border-bottom:1px solid #78a4e0;
+}
+#ul-3 li:hover{
+	border-bottom:1px solid #78a4e0;
+		color:#78a4e0;
+		cursor:pointer;
+}
+#order-status table{
+
+		width:94%;
+}
+#t-header{
+	background:#79a4df;
+	color:#FFF;
+	height:42px;
+	width:94%;
+	margin:0;
+	position:relative;
+	
+}
+#order-status #t-header span{
+	display:inline-block;
+	line-height:42px;
+
+
+	
+}
+#order-status table tr{
+background:#f8f8f8;
+
+
+}
+#order-status table td{
+	
+	height:32px;
+	text-align:center;
+		font-size:0.8em;
+		color:#666;
+
+}
+#order-status table td img{
+
+	width:16%;
+	height:80px;
+	vertical-align:middle;
+	float:left;
+	
+	margin-right:10px;
+	margin-left:10px;
+
+
+	
+}
+ table td .goods-name{
+	display:inline-block;
+	width:35%;
+	height:20px;
+	font-size:0.8em;
+	font-weight:bold;
+	color:#333;
+	overflow:hidden;
+	
+
+
+}
+ table td .goods-text{
+	display:inline-block;
+	width:35%;
+	height:50px;
+	font-size:0.8em;
+	text-align:left;
+word-break:break-all;
+
+}
+.td-1,.td-2,.td-3{
+	text-indent:2%;
+	font-size:0.7em;
+}
+.td-1{
+
+	width:20%;
+	
+}
+
+ .td-1 input{
+	vertical-align:middle;
+	background:#FFF;
+}
+ .td-2{
+	width:55%;
+
+
+
+}
+ .td-3{
+	width:15%;
+	float:right;
+	text-align:center;
+	
+
+}
+
+
+#order-status table .order-date td{
+	text-align:left;
+	text-indent:1%;
+
+	
+}
+#order-status table .order-date .date{
+	width:12%;
+}
+#order-status table .order-date .oid{
+	
+	width:70%;
+	
+}
+#order-status table .order-date .btn{
+	width:13%;
+}
+#order-status table .order-date .btn img{
+	cursor:pointer;
+
+	float:right;
+		width:20%;
+	height:25px;
+	vertical-align:middle;
+	float:left;
+	
+	margin-right:10px;
+	margin-left:10px;
+
+
+	
+}
+.order-info td{
+	padding:20px 0;
+}
+}
+@media screen and (max-width:899px) and (min-width: 790px){
+	#box{
+		width:auto;
+		height:auto;
+	}
+	#header ul{
+		margin-left:250px;
+		position:absolute;
+		top:0px;
+	}
+	#header ul li a{
+	font-size:5px;
+	height:20px;
+	width:60px;
+	display:block;
+	text-align:center;
+	line-height:25px;
+	padding:0px 10px;
+	
+}
+#order-status ul p{
+	display:inline-block;
+	border:1px solid #CCC;
+	float:right;
+	width:30%;
+	margin-right:6%;
+
+	margin-top:9px;
+
+
+}
+#order-status ul p .s-btn{
+	display:inline-block;
+	width:25%;
+	height:22px;
+	border:none;
+	background:#f8f8f8;
+
+
+}
+#ul-3 .h{
+	color:#78a4e0;
+	border-bottom:1px solid #78a4e0;
+}
+#ul-3 li:hover{
+	border-bottom:1px solid #78a4e0;
+		color:#78a4e0;
+		cursor:pointer;
+}
+#order-status table{
+
+		width:94%;
+}
+#t-header{
+	background:#79a4df;
+	color:#FFF;
+	height:42px;
+	width:94%;
+	margin:0;
+	position:relative;
+	
+}
+#order-status #t-header span{
+	display:inline-block;
+	line-height:42px;
+	
+
+
+	
+}
+#order-status table tr{
+background:#f8f8f8;
+
+
+}
+#order-status table td{
+	
+	height:32px;
+	text-align:center;
+		font-size:0.8em;
+		color:#666;
+
+}
+#order-status table td img{
+
+	width:16%;
+	height:80px;
+	vertical-align:middle;
+	float:left;
+	
+	margin-right:10px;
+	margin-left:10px;
+
+
+	
+}
+ table td .goods-name{
+	display:inline-block;
+	width:35%;
+	height:20px;
+	font-size:0.8em;
+	font-weight:bold;
+	color:#333;
+	overflow:hidden;
+	
+
+
+}
+ table td .goods-text{
+	display:inline-block;
+	width:35%;
+	height:50px;
+	font-size:0.8em;
+	text-align:left;
+word-break:break-all;
+
+}
+.td-1, .td-2, .td-3{
+	text-indent:1%;
+	font-size:12px;
+}
+.td-1{
+
+	width:20%;
+	
+}
+
+ .td-1 input{
+	vertical-align:middle;
+	background:#FFF;
+}
+ .td-2{
+	width:50%;
+
+
+
+
+
+
+}
+ .td-3{
+	width:15%;
+	text-align:center;
+	float:right;
+	
+
+}
+
+
+#order-status table .order-date td{
+	text-align:left;
+	text-indent:1%;
+
+	
+}
+#order-status table .order-date .date{
+	width:15%;
+}
+#order-status table .order-date .oid{
+	
+	width:65%;
+
+	
+}
+#order-status table .order-date .btn{
+	width:15%;
+}
+#order-status table .order-date .btn img{
+	cursor:pointer;
+	width:20%;
+
+
+	height:20px;
+	vertical-align:middle;
+	float:left;
+	
+	margin-right:10px;
+	margin-left:10px;
+
+
+
+
+	
+
+}
+.order-info td{
+	padding:20px 0;
+}
+}
+@media screen and (max-width:789px) and (min-width:720px){
+	#box{
+		width:auto;
+		height:auto;
+	}
+	#header ul{
+		margin-left:200px;
+		position:absolute;
+		top:0px;
+	}
+	#header ul li a{
+		font-size:3px;
+		height:20px;
+		width:60px;
+		display:inline-block;
+		text-align:center;
+		line-height:25px;
+		padding:0px 10px;
+	
+	}
+		#order-status ul p{
+	display:inline-block;
+	border:1px solid #CCC;
+	float:right;
+	width:30%;
+	margin-right:6%;
+
+	margin-top:9px;
+	position:absolute;
+	top:50px;
+	right:20px;
+
+}
+	#order-status ul p .s-btn{
+	display:inline-block;
+	width:25%;
+	height:22px;
+	border:none;
+	background:#f8f8f8;
+
+
+}
+#ul-3 .h{
+	color:#78a4e0;
+	border-bottom:1px solid #78a4e0;
+}
+#ul-3 li:hover{
+	border-bottom:1px solid #78a4e0;
+		color:#78a4e0;
+		cursor:pointer;
+}
+#order-status table{
+
+		width:94%;
+}
+#t-header{
+	background:#79a4df;
+	color:#FFF;
+	height:42px;
+	width:94%;
+	margin:0;
+	position:relative;
+	
+}
+#order-status #t-header span{
+	display:inline-block;
+	line-height:42px;
+	font-size:0.8em;
+
+
+	
+}
+#order-status table tr{
+background:#f8f8f8;
+
+
+}
+#order-status table td{
+	
+	height:32px;
+	text-align:center;
+		font-size:0.8em;
+		color:#666;
+
+}
+#order-status table td img{
+
+	width:30%;
+	height:80px;
+	vertical-align:middle;
+	float:left;
+	
+	margin-right:10px;
+	margin-left:10px;
+
+
+	
+}
+ table td .goods-name{
+	display:inline-block;
+	width:35%;
+	height:20px;
+	font-size:13px;
+	font-weight:bold;
+	color:#333;
+	overflow:hidden;
+	
+
+
+}
+ table td .goods-text{
+	display:inline-block;
+	width:50%;
+	height:50px;
+	font-size:12px;
+	text-align:left;
+word-break:break-all;
+
+}
+.td-1,.td-2,.td-3{
+
+	font-size:12px;
+}
+.td-1{
+
+	width:20%;
+	
+}
+
+ .td-1 input{
+	vertical-align:middle;
+	background:#FFF;
+}
+ .td-2{
+	width:50%;
+
+
+
+
+
+}
+ .td-3{
+	width:15%;
+	float:right;
+	text-align:center;
+
+	
+
+}
+
+
+#order-status table .order-date td{
+	text-align:left;
+	text-indent:1%;
+
+	
+}
+#order-status table .order-date .date{
+	width:12%;
+}
+#order-status table .order-date .oid{
+	
+	width:70%;
+	
+}
+#order-status table .order-date .btn{
+	width:13%;
+}
+#order-status table .order-date .btn img{
+
+	width:20%;
+	height:25px;
+	vertical-align:middle;
+	float:left;
+	
+	margin-right:10px;
+	margin-left:10px;
+
+
+	
+}
+.order-info td{
+	padding:20px 0;
+}
+
+}
+@media screen and (max-width:719px) and (min-width:600px){
+	#box{
+		width:auto;
+		height:auto;
+	}
+	#header ul{
+		margin-left:170px;
+		position:absolute;
+		top:0px;
+	}
+	#header ul li a{
+		font-size:1px;
+		height:20px;
+		width:50px;
+		display:inline-block;
+		text-align:center;
+		line-height:25px;
+		padding:0px 10px;
+	
+	}
+	#order-status ul p{
+	display:inline-block;
+	border:1px solid #CCC;
+	float:right;
+	width:30%;
+	margin-right:6%;
+
+	margin-top:9px;
+	position:absolute;
+	top:50px;
+	right:20px;
+
+}
+	#order-status ul p .s-btn{
+	display:inline-block;
+	width:25%;
+	height:22px;
+	border:none;
+	background:#f8f8f8;
+
+
+}
+#ul-3 .h{
+	color:#78a4e0;
+	border-bottom:1px solid #78a4e0;
+}
+#ul-3 li:hover{
+	border-bottom:1px solid #78a4e0;
+		color:#78a4e0;
+		cursor:pointer;
+}
+#ul-3 p{}
+#order-status table{
+
+		width:94%;
+}
+#t-header{
+	background:#79a4df;
+	color:#FFF;
+	height:42px;
+	width:94%;
+	margin:0;
+	position:relative;
+	
+}
+
+ #t-header span{
+	display:inline-block;
+	font-size:12px;
+	line-height:42px;
+
+
+	
+}
+#order-status table tr{
+background:#f8f8f8;
+
+
+}
+#order-status table td{
+	
+	height:32px;
+	text-align:center;
+		font-size:0.8em;
+		color:#666;
+
+}
+#order-status table td img{
+
+	width:30%;
+	height:80px;
+	vertical-align:middle;
+	float:left;
+	
+	margin-right:10px;
+	margin-left:10px;
+
+
+	
+}
+ table td .goods-name{
+	display:inline-block;
+	width:35%;
+	height:20px;
+	font-size:13px;
+	font-weight:bold;
+	color:#333;
+	overflow:hidden;
+	
+
+
+}
+ table td .goods-text{
+	display:inline-block;
+	width:35%;
+	height:50px;
+	font-size:12px;
+	text-align:left;
+word-break:break-all;
+
+}
+.td-1,.td-2,.td-3{
+	text-indent:2%;
+	font-size:12px;
+}
+.td-1{
+
+	width:20%;
+
+}
+
+ .td-1 input{
+	vertical-align:middle;
+	background:#FFF;
+}
+ .td-2{
+	width:50%;
+
+}
+ .td-3{
+	width:15%;
+	float:right;
+	text-align:left;
+
+}
+
+
+#order-status table .order-date td{
+	text-align:left;
+	text-indent:1%;
+
+	
+}
+#order-status table .order-date .date{
+	width:12%;
+}
+#order-status table .order-date .oid{
+	
+	width:70%;
+	
+}
+#order-status table .order-date .btn{
+	width:13%;
+}
+#order-status table .order-date .btn img{
+	cursor:pointer;
+	width:20%;
+	height:20px;
+	float:left;
+
+
+}
+.order-info td{
+	padding:20px 0;
+}
+	#footer ul{
+	display:inline-block;
+
+	list-style:none;
+
+
+	margin:25px auto 0 auto;
+}
+
+#footer ul li{
+	float:left;
+}
+#footer ul li a{
+	color:#000;
+	font-size:10px;
+	margin-right:20px;
+	
+}
+#footer p{
+	color:#999;
+	font-size:10px;
+	text-align:center;
+	margin-top:20px;
+	text-height:14px;
+
+}
+
+}
+#header{
+	
+	height:40px;
+	background: url(img/%E7%9F%A9%E5%BD%A2%201.png) no-repeat;
+}
+
+#header ul li{
+	float:left;
+	height:40px;
+
+	list-style:none;
+}
+#header ul li:hover{
+
+	background:#eb9290;
+}
+
+
+
+
+#header-title{
+	display:inline-block;
+	margin-left:50px;
+	line-height:40px;
+	font-size:18px;
+}
+#lgorrg{
+	float:right;
+	margin-right:30px;
+	line-height:20px;
+}
+#lgorrg a{
+	font-size:10px;
+}
+
+#content{
+	width:90%;
+	height:620px;
+	background:#f8f8f8;
+	margin:0 auto;
+}
+#content #nav-title{
+	font-size:10px;
+	margin-top:40px;
+	margin-left:60px;
+}
+#content #nav-title a{
+	color:#000;
+	text-decoration:none;
+	font-weight:bold;
+	
+}
+#row-nav{
+	width:30%;
+	height:535px;
+	float:left;
+	margin-top:30px;
+
+}
+#row-nav ul{
+	list-style:none;
+	margin-left:60px;
+}
+#row-nav ul div,#row-nav ul li{
+	width:67px;
+	height:20px;
+	padding:4px;
+	text-align:center;
+	line-height:28px;
+
+}
+#row-nav ul div{
+	color:#FFF;
+	background:#79a4df;
+	line-height:20px;
+		font-size:0.95em;
+}
+#row-nav ul li a{
+	color:#333;
+	margin-top:5px;
+
+	font-size:12px;
+
+}
+#row-nav ul li:hover{
+	color:#ff7f65;
+		border-left:2px solid #ff7f65;
+
+	
+}
+#ul-2,#ul-1{
+	margin-bottom:25px;
+}
+
+#order-status{
+	width:70%;
+	height:535px;
+	float:right;
+}
+#order-status ul{
+	list-style:none;
+
+	height:40px;
+	margin-bottom:35px;
+
+}
+
+#order-status ul li{
+	float:left;
+	padding: 11px 2%;
+	color:#acacac;
+}
+
+#order-status ul p .s-text{
+	width:calc(75% - 2px);
+	height:20px;
+	border:none;
+	border-right:1px solid #666;
+	background:#f8f8f8;
+	outline:none;
+	text-indent:5%;
+	font-size:12px;
+
+
+
+	
+}
+
+#info{
+	height:200px;
+
+	background:url(img/rect.png);
+}
+#footer{
+	height:115px;
+
+		background:#e2f7ff;
+	padding-bottom:35px;
+}
+
+#footer ul{
+	display:inline-block;
+
+	list-style:none;
+
+	text-align:center;
+
+	margin:25px auto 0 auto;
+}
+
+#footer ul li{
+	float:left;
+}
+#footer ul li a{
+	color:#000;
+	font-size:15px;
+	margin-right:20px;
+	
+}
+.goods{
+	text-align:left;
+
+
+}
+.count{
+	vertical-align:text-top;
+
+	text-align:left;
+	
+}
+.count p{
+	text-align:right;
+	margin-right:10px;
+	font-family:"微软雅黑";
+	font-size:14px;
+}
+.status{
+	color:#F00;
+}
+.sum td{
+	
+	
+}
+.sum td p{
+
+	text-align:left;
+}
+.sum a{
+	display:inline-block;
+	width:55px;
+	height:21px;
+	border:1px solid #06C;
+	color:#06F;
+	border-radius:1.2em;
+	line-height:21px;
+	font-size:1em;
+	padding:2px;
+	text-align:center;
+	margin-right:5px;
+	float:right;
+}
+.column1{
+	border:1px solid #999;
+	border-right:none;
+}
+.column2{
+	border:1px solid #999;
+	border-right:none;
+	border-left:none;
+}
+.column3{
+	border:1px solid #999;
+	border-left:none;
+}
+</style>
+</head>
+
+
+</html>

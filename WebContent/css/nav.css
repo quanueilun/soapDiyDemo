@@ -1,0 +1,33 @@
+#header{
+	height:40px;
+	background:url(${pageContext.request.contextPath}/img/rect.png) no-repeat;
+}
+
+#header ul li{
+	float:left;
+	height:40px;
+
+	list-style:none;
+}
+#header ul li:hover{
+
+	background:#eb9290;
+}
+#header ul li a{
+	font-size:5px;
+	height:20px;
+	width:60px;
+	display:block;
+	text-align:center;
+	line-height:25px;
+	padding:0px 10px;
+	
+}
+
+
+#header-title{
+	display:inline-block;
+	margin-left:50px;
+	line-height:40px;
+	font-size:18px;
+}

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.soapdiy.mapper.OrderMapper">
+	<select id="fineOrderById" parameterType="Integer" resultMap="fineOrderByIdResult">
+		select * from orders where o_id=#{value}
+	</select>
+	<select id="fineOrdersByCustomer" parameterType="Integer" resultMap="fineOrdersByCustomerResult">
+		select * from orders where c_id=#{value}
+	</select>
+	
+	<insert id="addOrder" parameterType="order">
+		insert into orders(c_id,add_id,money,date,state) value(#{customer.c_id},#{address.add_id},#{money},#{date},#{state})
+	</insert>
+	
+	<resultMap type="order" id="fineOrderByIdResult">
+		<id property="o_id" column="o_id"/>
+		<result property="money" column="money"/>
+		<result property="date" column="date"/>
+		<result property="state" column="state"/>
+		<association property="customer" javaType="customer" 
+		select="com.soapdiy.mapper.CustomerMapper.fineCustomerById" column="c_id"/>
+		<association property="address" javaType="address"
+		select="com.soapdiy.mapper.AddressMapper.fineAddressById" column="add_id"/>
+		<collection property="orderDetail" javaType="List"
+		select="com.soapdiy.mapper.OrderDetailMapper.fineOrderDetailByOrderId" column="o_id"/>
+	</resultMap>
+	<resultMap type="order" id="fineOrdersByCustomerResult">
+		<id property="o_id" column="o_id"/>
+		<result property="money" column="money"/>
+		<result property="date" column="date"/>
+		<result property="state" column="state"/>
+		<association property="customer" javaType="customer" 
+		select="com.soapdiy.mapper.CustomerMapper.fineCustomerById" column="c_id"/>
+		<association property="address" javaType="address"
+		select="com.soapdiy.mapper.AddressMapper.fineAddressById" column="add_id"/>
+		<collection property="orderDetail" javaType="List"
+		select="com.soapdiy.mapper.OrderDetailMapper.fineOrderDetailByOrderId" column="o_id"/>
+	</resultMap>
+</mapper>

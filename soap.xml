@@ -1,0 +1,19 @@
+<document>
+	<property>
+		<count>4</count>
+	</property>
+	<soapBase>
+		<type>透明皂基</type>
+		<type>不透明皂基</type>
+	</soapBase>
+	<smell>
+		<type>茉莉花香</type>
+		<type>薰衣草香</type>
+	</smell>
+	<color>
+		<type>红色</type>
+		<type>橙色</type>
+	</color>
+	<power>
+	</power>
+</document>

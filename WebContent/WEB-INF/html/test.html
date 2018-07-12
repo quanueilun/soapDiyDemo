@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>html页面</title>
+    <script src="/soapDiyDemo/js/jquery.js"></script>
+    <script>
+    $(function () {
+      $("input[type=button]").click(function () {
+    	  var userName = $(this).prev().val();
+    	  $.get("http://localhost:8080/soapDiyDemo/sign/checkUserName/"+userName,function (data) {
+              console.log(data);
+          })
+        	 // $.ajax({
+        	 // 	　 dataType:'json',
+        	 // 	  type:'post',
+        	 // 	  url : 'http://localhost:8080/soapDiyDemo/sign/checkUserName',
+        	 // 	  data : {userName:userName},
+        	 // 	  success : function(data){
+        	 // 		  console.log(data);
+        	 // 	  },
+        	 // 	  error:function(data){
+        		// 	  console.log(data);
+        		//   }
+        		//   });
+        });
+    });
+    </script>
+</head>
+<body>
+<input type="text"/>
+<input type="button" value="搜索">
+<div></div>
+</body>
+</html>

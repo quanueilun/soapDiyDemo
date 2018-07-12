@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.soapdiy.mapper.GoodMapper">
+	<select id="fineGoodById" parameterType="Integer" resultType="good">
+		select * from goods where g_id=#{value}
+	</select>
+	
+	<insert id="addGood" parameterType="good">
+		insert into goods(soap,color,smell,shape,power,flower,bag,note,price) 
+		value(#{soap},#{color},#{smell},#{shape},#{power},#{flower},#{bag},#{note},#{price})
+	</insert>
+</mapper>

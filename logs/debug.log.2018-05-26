@@ -1,0 +1,756 @@
+2018-05-26 18:22:01  [ main:0 ] - [ DEBUG ]  Adding [systemProperties] PropertySource with lowest search precedence
+2018-05-26 18:22:01  [ main:10 ] - [ DEBUG ]  Adding [systemEnvironment] PropertySource with lowest search precedence
+2018-05-26 18:22:01  [ main:15 ] - [ DEBUG ]  Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+2018-05-26 18:22:01  [ main:28 ] - [ INFO ]  Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@33fae0: startup date [Sat May 26 18:22:01 GMT+08:00 2018]; root of context hierarchy
+2018-05-26 18:22:01  [ main:89 ] - [ DEBUG ]  Adding [systemProperties] PropertySource with lowest search precedence
+2018-05-26 18:22:01  [ main:89 ] - [ DEBUG ]  Adding [systemEnvironment] PropertySource with lowest search precedence
+2018-05-26 18:22:01  [ main:89 ] - [ DEBUG ]  Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+2018-05-26 18:22:01  [ main:133 ] - [ INFO ]  Loading XML bean definitions from class path resource [applicationContext.xml]
+2018-05-26 18:22:01  [ main:211 ] - [ DEBUG ]  Using JAXP provider [com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderFactoryImpl]
+2018-05-26 18:22:01  [ main:301 ] - [ DEBUG ]  Loading schema mappings from [META-INF/spring.schemas]
+2018-05-26 18:22:01  [ main:309 ] - [ DEBUG ]  Loaded schema mappings: {http://www.springframework.org/schema/tx/spring-tx-2.5.xsd=org/springframework/transaction/config/spring-tx-2.5.xsd, http://www.springframework.org/schema/context/spring-context-3.1.xsd=org/springframework/context/config/spring-context-3.1.xsd, http://www.springframework.org/schema/jms/spring-jms-2.5.xsd=org/springframework/jms/config/spring-jms-2.5.xsd, http://www.springframework.org/schema/util/spring-util-3.0.xsd=org/springframework/beans/factory/xml/spring-util-3.0.xsd, http://www.springframework.org/schema/tool/spring-tool.xsd=org/springframework/beans/factory/xml/spring-tool-3.2.xsd, http://www.springframework.org/schema/aop/spring-aop-3.2.xsd=org/springframework/aop/config/spring-aop-3.2.xsd, http://mybatis.org/schema/mybatis-spring-1.2.xsd=org/mybatis/spring/config/mybatis-spring-1.2.xsd, http://www.springframework.org/schema/mvc/spring-mvc-3.2.xsd=org/springframework/web/servlet/config/spring-mvc-3.2.xsd, http://www.springframework.org/schema/oxm/spring-oxm-3.0.xsd=org/springframework/oxm/config/spring-oxm-3.0.xsd, http://www.springframework.org/schema/lang/spring-lang-3.2.xsd=org/springframework/scripting/config/spring-lang-3.2.xsd, http://www.springframework.org/schema/cache/spring-cache-3.2.xsd=org/springframework/cache/config/spring-cache-3.2.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc-3.1.xsd=org/springframework/jdbc/config/spring-jdbc-3.1.xsd, http://www.springframework.org/schema/util/spring-util-2.0.xsd=org/springframework/beans/factory/xml/spring-util-2.0.xsd, http://www.springframework.org/schema/tool/spring-tool-3.2.xsd=org/springframework/beans/factory/xml/spring-tool-3.2.xsd, http://www.springframework.org/schema/context/spring-context.xsd=org/springframework/context/config/spring-context-3.2.xsd, http://www.springframework.org/schema/jee/spring-jee-3.2.xsd=org/springframework/ejb/config/spring-jee-3.2.xsd, http://www.springframework.org/schema/context/spring-context-3.0.xsd=org/springframework/context/config/spring-context-3.0.xsd, http://www.springframework.org/schema/util/spring-util-2.5.xsd=org/springframework/beans/factory/xml/spring-util-2.5.xsd, http://www.springframework.org/schema/beans/spring-beans-3.2.xsd=org/springframework/beans/factory/xml/spring-beans-3.2.xsd, http://www.springframework.org/schema/aop/spring-aop-3.1.xsd=org/springframework/aop/config/spring-aop-3.1.xsd, http://www.springframework.org/schema/mvc/spring-mvc.xsd=org/springframework/web/servlet/config/spring-mvc-3.2.xsd, http://www.springframework.org/schema/mvc/spring-mvc-3.1.xsd=org/springframework/web/servlet/config/spring-mvc-3.1.xsd, http://www.springframework.org/schema/lang/spring-lang-3.1.xsd=org/springframework/scripting/config/spring-lang-3.1.xsd, http://www.springframework.org/schema/tx/spring-tx-3.2.xsd=org/springframework/transaction/config/spring-tx-3.2.xsd, http://www.springframework.org/schema/cache/spring-cache-3.1.xsd=org/springframework/cache/config/spring-cache-3.1.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc-3.0.xsd=org/springframework/jdbc/config/spring-jdbc-3.0.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc.xsd=org/springframework/jdbc/config/spring-jdbc-3.2.xsd, http://www.springframework.org/schema/tool/spring-tool-3.1.xsd=org/springframework/beans/factory/xml/spring-tool-3.1.xsd, http://www.springframework.org/schema/jee/spring-jee-3.1.xsd=org/springframework/ejb/config/spring-jee-3.1.xsd, http://www.springframework.org/schema/task/spring-task-3.2.xsd=org/springframework/scheduling/config/spring-task-3.2.xsd, http://www.springframework.org/schema/beans/spring-beans-3.1.xsd=org/springframework/beans/factory/xml/spring-beans-3.1.xsd, http://www.springframework.org/schema/util/spring-util.xsd=org/springframework/beans/factory/xml/spring-util-3.2.xsd, http://www.springframework.org/schema/aop/spring-aop-3.0.xsd=org/springframework/aop/config/spring-aop-3.0.xsd, http://www.springframework.org/schema/jms/spring-jms-3.2.xsd=org/springframework/jms/config/spring-jms-3.2.xsd, http://www.springframework.org/schema/mvc/spring-mvc-3.0.xsd=org/springframework/web/servlet/config/spring-mvc-3.0.xsd, http://www.springframework.org/schema/beans/spring-beans.xsd=org/springframework/beans/factory/xml/spring-beans-3.2.xsd, http://www.springframework.org/schema/lang/spring-lang-3.0.xsd=org/springframework/scripting/config/spring-lang-3.0.xsd, http://www.springframework.org/schema/tx/spring-tx-3.1.xsd=org/springframework/transaction/config/spring-tx-3.1.xsd, http://mybatis.org/schema/mybatis-spring.xsd=org/mybatis/spring/config/mybatis-spring-1.2.xsd, http://www.springframework.org/schema/context/spring-context-2.5.xsd=org/springframework/context/config/spring-context-2.5.xsd, http://www.springframework.org/schema/tool/spring-tool-3.0.xsd=org/springframework/beans/factory/xml/spring-tool-3.0.xsd, http://www.springframework.org/schema/aop/spring-aop-2.0.xsd=org/springframework/aop/config/spring-aop-2.0.xsd, http://www.springframework.org/schema/jee/spring-jee-3.0.xsd=org/springframework/ejb/config/spring-jee-3.0.xsd, http://www.springframework.org/schema/task/spring-task-3.1.xsd=org/springframework/scheduling/config/spring-task-3.1.xsd, http://www.springframework.org/schema/beans/spring-beans-3.0.xsd=org/springframework/beans/factory/xml/spring-beans-3.0.xsd, http://www.springframework.org/schema/jee/spring-jee.xsd=org/springframework/ejb/config/spring-jee-3.2.xsd, http://www.springframework.org/schema/aop/spring-aop-2.5.xsd=org/springframework/aop/config/spring-aop-2.5.xsd, http://www.springframework.org/schema/jms/spring-jms.xsd=org/springframework/jms/config/spring-jms-3.2.xsd, http://www.springframework.org/schema/lang/spring-lang-2.0.xsd=org/springframework/scripting/config/spring-lang-2.0.xsd, http://www.springframework.org/schema/jms/spring-jms-3.1.xsd=org/springframework/jms/config/spring-jms-3.1.xsd, http://www.springframework.org/schema/oxm/spring-oxm.xsd=org/springframework/oxm/config/spring-oxm-3.2.xsd, http://www.springframework.org/schema/util/spring-util-3.2.xsd=org/springframework/beans/factory/xml/spring-util-3.2.xsd, http://www.springframework.org/schema/task/spring-task.xsd=org/springframework/scheduling/config/spring-task-3.2.xsd, http://www.springframework.org/schema/tool/spring-tool-2.0.xsd=org/springframework/beans/factory/xml/spring-tool-2.0.xsd, http://www.springframework.org/schema/tx/spring-tx-3.0.xsd=org/springframework/transaction/config/spring-tx-3.0.xsd, http://www.springframework.org/schema/lang/spring-lang-2.5.xsd=org/springframework/scripting/config/spring-lang-2.5.xsd, http://www.springframework.org/schema/jee/spring-jee-2.0.xsd=org/springframework/ejb/config/spring-jee-2.0.xsd, http://www.springframework.org/schema/oxm/spring-oxm-3.2.xsd=org/springframework/oxm/config/spring-oxm-3.2.xsd, http://www.springframework.org/schema/tool/spring-tool-2.5.xsd=org/springframework/beans/factory/xml/spring-tool-2.5.xsd, http://www.springframework.org/schema/jee/spring-jee-2.5.xsd=org/springframework/ejb/config/spring-jee-2.5.xsd, http://www.springframework.org/schema/task/spring-task-3.0.xsd=org/springframework/scheduling/config/spring-task-3.0.xsd, http://www.springframework.org/schema/lang/spring-lang.xsd=org/springframework/scripting/config/spring-lang-3.2.xsd, http://www.springframework.org/schema/context/spring-context-3.2.xsd=org/springframework/context/config/spring-context-3.2.xsd, http://www.springframework.org/schema/jms/spring-jms-3.0.xsd=org/springframework/jms/config/spring-jms-3.0.xsd, http://www.springframework.org/schema/util/spring-util-3.1.xsd=org/springframework/beans/factory/xml/spring-util-3.1.xsd, http://www.springframework.org/schema/beans/spring-beans-2.0.xsd=org/springframework/beans/factory/xml/spring-beans-2.0.xsd, http://www.springframework.org/schema/cache/spring-cache.xsd=org/springframework/cache/config/spring-cache-3.2.xsd, http://www.springframework.org/schema/tx/spring-tx.xsd=org/springframework/transaction/config/spring-tx-3.2.xsd, http://www.springframework.org/schema/beans/spring-beans-2.5.xsd=org/springframework/beans/factory/xml/spring-beans-2.5.xsd, http://www.springframework.org/schema/oxm/spring-oxm-3.1.xsd=org/springframework/oxm/config/spring-oxm-3.1.xsd, http://www.springframework.org/schema/tx/spring-tx-2.0.xsd=org/springframework/transaction/config/spring-tx-2.0.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc-3.2.xsd=org/springframework/jdbc/config/spring-jdbc-3.2.xsd, http://www.springframework.org/schema/aop/spring-aop.xsd=org/springframework/aop/config/spring-aop-3.2.xsd}
+2018-05-26 18:22:01  [ main:311 ] - [ DEBUG ]  Found XML schema [http://www.springframework.org/schema/beans/spring-beans.xsd] in classpath: org/springframework/beans/factory/xml/spring-beans-3.2.xsd
+2018-05-26 18:22:01  [ main:375 ] - [ DEBUG ]  Found XML schema [http://www.springframework.org/schema/context/spring-context.xsd] in classpath: org/springframework/context/config/spring-context-3.2.xsd
+2018-05-26 18:22:01  [ main:381 ] - [ DEBUG ]  Found XML schema [http://www.springframework.org/schema/tool/spring-tool-3.2.xsd] in classpath: org/springframework/beans/factory/xml/spring-tool-3.2.xsd
+2018-05-26 18:22:01  [ main:389 ] - [ DEBUG ]  Found XML schema [http://www.springframework.org/schema/tx/spring-tx.xsd] in classpath: org/springframework/transaction/config/spring-tx-3.2.xsd
+2018-05-26 18:22:01  [ main:402 ] - [ DEBUG ]  Loading bean definitions
+2018-05-26 18:22:01  [ main:425 ] - [ DEBUG ]  Loaded NamespaceHandler mappings: {http://www.springframework.org/schema/p=org.springframework.beans.factory.xml.SimplePropertyNamespaceHandler, http://www.springframework.org/schema/mvc=org.springframework.web.servlet.config.MvcNamespaceHandler, http://www.springframework.org/schema/util=org.springframework.beans.factory.xml.UtilNamespaceHandler, http://www.springframework.org/schema/jee=org.springframework.ejb.config.JeeNamespaceHandler, http://www.springframework.org/schema/aop=org.springframework.aop.config.AopNamespaceHandler, http://www.springframework.org/schema/oxm=org.springframework.oxm.config.OxmNamespaceHandler, http://www.springframework.org/schema/jdbc=org.springframework.jdbc.config.JdbcNamespaceHandler, http://www.springframework.org/schema/cache=org.springframework.cache.config.CacheNamespaceHandler, http://mybatis.org/schema/mybatis-spring=org.mybatis.spring.config.NamespaceHandler, http://www.springframework.org/schema/c=org.springframework.beans.factory.xml.SimpleConstructorNamespaceHandler, http://www.springframework.org/schema/tx=org.springframework.transaction.config.TxNamespaceHandler, http://www.springframework.org/schema/jms=org.springframework.jms.config.JmsNamespaceHandler, http://www.springframework.org/schema/task=org.springframework.scheduling.config.TaskNamespaceHandler, http://www.springframework.org/schema/lang=org.springframework.scripting.config.LangNamespaceHandler, http://www.springframework.org/schema/context=org.springframework.context.config.ContextNamespaceHandler}
+2018-05-26 18:22:01  [ main:492 ] - [ DEBUG ]  Neither XML 'id' nor 'name' specified - using generated bean name [org.mybatis.spring.mapper.MapperScannerConfigurer#0]
+2018-05-26 18:22:01  [ main:493 ] - [ DEBUG ]  Loaded 9 bean definitions from location pattern [applicationContext.xml]
+2018-05-26 18:22:01  [ main:493 ] - [ DEBUG ]  Bean factory for org.springframework.context.support.ClassPathXmlApplicationContext@33fae0: org.springframework.beans.factory.support.DefaultListableBeanFactory@183967b: defining beans [org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0,dataSource,transactionManager,org.springframework.aop.config.internalAutoProxyCreator,org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0,org.springframework.transaction.interceptor.TransactionInterceptor#0,org.springframework.transaction.config.internalTransactionAdvisor,sqlSessionFactory,org.mybatis.spring.mapper.MapperScannerConfigurer#0]; root of factory hierarchy
+2018-05-26 18:22:01  [ main:532 ] - [ DEBUG ]  Creating shared instance of singleton bean 'org.mybatis.spring.mapper.MapperScannerConfigurer#0'
+2018-05-26 18:22:01  [ main:532 ] - [ DEBUG ]  Creating instance of bean 'org.mybatis.spring.mapper.MapperScannerConfigurer#0'
+2018-05-26 18:22:01  [ main:552 ] - [ DEBUG ]  Eagerly caching bean 'org.mybatis.spring.mapper.MapperScannerConfigurer#0' to allow for resolving potential circular references
+2018-05-26 18:22:01  [ main:617 ] - [ DEBUG ]  Invoking afterPropertiesSet() on bean with name 'org.mybatis.spring.mapper.MapperScannerConfigurer#0'
+2018-05-26 18:22:01  [ main:618 ] - [ DEBUG ]  Finished creating instance of bean 'org.mybatis.spring.mapper.MapperScannerConfigurer#0'
+2018-05-26 18:22:01  [ main:632 ] - [ DEBUG ]  Adding [systemProperties] PropertySource with lowest search precedence
+2018-05-26 18:22:01  [ main:632 ] - [ DEBUG ]  Adding [systemEnvironment] PropertySource with lowest search precedence
+2018-05-26 18:22:01  [ main:632 ] - [ DEBUG ]  Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+2018-05-26 18:22:01  [ main:646 ] - [ DEBUG ]  Looking for matching resources in directory tree [C:\Users\Administrator\eclipse-workspace\soapDiyDemo\build\classes\com\soapdiy\mapper]
+2018-05-26 18:22:01  [ main:648 ] - [ DEBUG ]  Searching directory [C:\Users\Administrator\eclipse-workspace\soapDiyDemo\build\classes\com\soapdiy\mapper] for files matching pattern [C:/Users/Administrator/eclipse-workspace/soapDiyDemo/build/classes/com/soapdiy/mapper/**/*.class]
+2018-05-26 18:22:01  [ main:659 ] - [ DEBUG ]  Resolved location pattern [classpath*:com/soapdiy/mapper/**/*.class] to resources [file [C:\Users\Administrator\eclipse-workspace\soapDiyDemo\build\classes\com\soapdiy\mapper\AddressMapper.class], file [C:\Users\Administrator\eclipse-workspace\soapDiyDemo\build\classes\com\soapdiy\mapper\CustomerMapper.class], file [C:\Users\Administrator\eclipse-workspace\soapDiyDemo\build\classes\com\soapdiy\mapper\GoodMapper.class], file [C:\Users\Administrator\eclipse-workspace\soapDiyDemo\build\classes\com\soapdiy\mapper\OrderDetailMapper.class], file [C:\Users\Administrator\eclipse-workspace\soapDiyDemo\build\classes\com\soapdiy\mapper\OrderMapper.class], file [C:\Users\Administrator\eclipse-workspace\soapDiyDemo\build\classes\com\soapdiy\mapper\ShoppingcarMapper.class]]
+2018-05-26 18:22:01  [ main:679 ] - [ DEBUG ]  Identified candidate component class: file [C:\Users\Administrator\eclipse-workspace\soapDiyDemo\build\classes\com\soapdiy\mapper\AddressMapper.class]
+2018-05-26 18:22:01  [ main:680 ] - [ DEBUG ]  Identified candidate component class: file [C:\Users\Administrator\eclipse-workspace\soapDiyDemo\build\classes\com\soapdiy\mapper\CustomerMapper.class]
+2018-05-26 18:22:01  [ main:681 ] - [ DEBUG ]  Identified candidate component class: file [C:\Users\Administrator\eclipse-workspace\soapDiyDemo\build\classes\com\soapdiy\mapper\GoodMapper.class]
+2018-05-26 18:22:01  [ main:682 ] - [ DEBUG ]  Identified candidate component class: file [C:\Users\Administrator\eclipse-workspace\soapDiyDemo\build\classes\com\soapdiy\mapper\OrderDetailMapper.class]
+2018-05-26 18:22:01  [ main:683 ] - [ DEBUG ]  Identified candidate component class: file [C:\Users\Administrator\eclipse-workspace\soapDiyDemo\build\classes\com\soapdiy\mapper\OrderMapper.class]
+2018-05-26 18:22:01  [ main:684 ] - [ DEBUG ]  Identified candidate component class: file [C:\Users\Administrator\eclipse-workspace\soapDiyDemo\build\classes\com\soapdiy\mapper\ShoppingcarMapper.class]
+2018-05-26 18:22:01  [ main:689 ] - [ DEBUG ]  Creating MapperFactoryBean with name 'addressMapper' and 'com.soapdiy.mapper.AddressMapper' mapperInterface
+2018-05-26 18:22:01  [ main:690 ] - [ DEBUG ]  Creating MapperFactoryBean with name 'customerMapper' and 'com.soapdiy.mapper.CustomerMapper' mapperInterface
+2018-05-26 18:22:01  [ main:690 ] - [ DEBUG ]  Creating MapperFactoryBean with name 'goodMapper' and 'com.soapdiy.mapper.GoodMapper' mapperInterface
+2018-05-26 18:22:01  [ main:691 ] - [ DEBUG ]  Creating MapperFactoryBean with name 'orderDetailMapper' and 'com.soapdiy.mapper.OrderDetailMapper' mapperInterface
+2018-05-26 18:22:01  [ main:691 ] - [ DEBUG ]  Creating MapperFactoryBean with name 'orderMapper' and 'com.soapdiy.mapper.OrderMapper' mapperInterface
+2018-05-26 18:22:01  [ main:691 ] - [ DEBUG ]  Creating MapperFactoryBean with name 'shoppingcarMapper' and 'com.soapdiy.mapper.ShoppingcarMapper' mapperInterface
+2018-05-26 18:22:01  [ main:696 ] - [ DEBUG ]  Creating shared instance of singleton bean 'org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0'
+2018-05-26 18:22:01  [ main:697 ] - [ DEBUG ]  Creating instance of bean 'org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0'
+2018-05-26 18:22:01  [ main:700 ] - [ DEBUG ]  Eagerly caching bean 'org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0' to allow for resolving potential circular references
+2018-05-26 18:22:02  [ main:709 ] - [ DEBUG ]  Finished creating instance of bean 'org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0'
+2018-05-26 18:22:02  [ main:710 ] - [ DEBUG ]  Adding [environmentProperties] PropertySource with lowest search precedence
+2018-05-26 18:22:02  [ main:710 ] - [ INFO ]  Loading properties file from class path resource [db.properties]
+2018-05-26 18:22:02  [ main:711 ] - [ DEBUG ]  Adding [localProperties] PropertySource with lowest search precedence
+2018-05-26 18:22:02  [ main:713 ] - [ DEBUG ]  Searching for key 'jdbc.driver' in [environmentProperties]
+2018-05-26 18:22:02  [ main:714 ] - [ DEBUG ]  Searching for key 'jdbc.driver' in [systemProperties]
+2018-05-26 18:22:02  [ main:714 ] - [ DEBUG ]  Searching for key 'jdbc.driver' in [systemEnvironment]
+2018-05-26 18:22:02  [ main:715 ] - [ DEBUG ]  Could not find key 'jdbc.driver' in any property source. Returning [null]
+2018-05-26 18:22:02  [ main:715 ] - [ DEBUG ]  Searching for key 'jdbc.driver' in [localProperties]
+2018-05-26 18:22:02  [ main:716 ] - [ DEBUG ]  Found key 'jdbc.driver' in [localProperties] with type [String] and value 'com.mysql.jdbc.Driver'
+2018-05-26 18:22:02  [ main:718 ] - [ DEBUG ]  Searching for key 'jdbc.url' in [environmentProperties]
+2018-05-26 18:22:02  [ main:718 ] - [ DEBUG ]  Searching for key 'jdbc.url' in [systemProperties]
+2018-05-26 18:22:02  [ main:718 ] - [ DEBUG ]  Searching for key 'jdbc.url' in [systemEnvironment]
+2018-05-26 18:22:02  [ main:719 ] - [ DEBUG ]  Could not find key 'jdbc.url' in any property source. Returning [null]
+2018-05-26 18:22:02  [ main:719 ] - [ DEBUG ]  Searching for key 'jdbc.url' in [localProperties]
+2018-05-26 18:22:02  [ main:719 ] - [ DEBUG ]  Found key 'jdbc.url' in [localProperties] with type [String] and value 'jdbc:mysql://localhost:3306/shopping?useSSL=false'
+2018-05-26 18:22:02  [ main:719 ] - [ DEBUG ]  Searching for key 'jdbc.user' in [environmentProperties]
+2018-05-26 18:22:02  [ main:719 ] - [ DEBUG ]  Searching for key 'jdbc.user' in [systemProperties]
+2018-05-26 18:22:02  [ main:720 ] - [ DEBUG ]  Searching for key 'jdbc.user' in [systemEnvironment]
+2018-05-26 18:22:02  [ main:720 ] - [ DEBUG ]  Could not find key 'jdbc.user' in any property source. Returning [null]
+2018-05-26 18:22:02  [ main:720 ] - [ DEBUG ]  Searching for key 'jdbc.user' in [localProperties]
+2018-05-26 18:22:02  [ main:720 ] - [ DEBUG ]  Found key 'jdbc.user' in [localProperties] with type [String] and value 'root'
+2018-05-26 18:22:02  [ main:721 ] - [ DEBUG ]  Searching for key 'jdbc.password' in [environmentProperties]
+2018-05-26 18:22:02  [ main:721 ] - [ DEBUG ]  Searching for key 'jdbc.password' in [systemProperties]
+2018-05-26 18:22:02  [ main:721 ] - [ DEBUG ]  Searching for key 'jdbc.password' in [systemEnvironment]
+2018-05-26 18:22:02  [ main:721 ] - [ DEBUG ]  Could not find key 'jdbc.password' in any property source. Returning [null]
+2018-05-26 18:22:02  [ main:722 ] - [ DEBUG ]  Searching for key 'jdbc.password' in [localProperties]
+2018-05-26 18:22:02  [ main:722 ] - [ DEBUG ]  Found key 'jdbc.password' in [localProperties] with type [String] and value 'root'
+2018-05-26 18:22:02  [ main:722 ] - [ DEBUG ]  Searching for key 'jdbc.maxTotal' in [environmentProperties]
+2018-05-26 18:22:02  [ main:723 ] - [ DEBUG ]  Searching for key 'jdbc.maxTotal' in [systemProperties]
+2018-05-26 18:22:02  [ main:723 ] - [ DEBUG ]  Searching for key 'jdbc.maxTotal' in [systemEnvironment]
+2018-05-26 18:22:02  [ main:723 ] - [ DEBUG ]  Could not find key 'jdbc.maxTotal' in any property source. Returning [null]
+2018-05-26 18:22:02  [ main:723 ] - [ DEBUG ]  Searching for key 'jdbc.maxTotal' in [localProperties]
+2018-05-26 18:22:02  [ main:724 ] - [ DEBUG ]  Found key 'jdbc.maxTotal' in [localProperties] with type [String] and value '30'
+2018-05-26 18:22:02  [ main:724 ] - [ DEBUG ]  Searching for key 'jdbc.maxIdle' in [environmentProperties]
+2018-05-26 18:22:02  [ main:724 ] - [ DEBUG ]  Searching for key 'jdbc.maxIdle' in [systemProperties]
+2018-05-26 18:22:02  [ main:724 ] - [ DEBUG ]  Searching for key 'jdbc.maxIdle' in [systemEnvironment]
+2018-05-26 18:22:02  [ main:724 ] - [ DEBUG ]  Could not find key 'jdbc.maxIdle' in any property source. Returning [null]
+2018-05-26 18:22:02  [ main:725 ] - [ DEBUG ]  Searching for key 'jdbc.maxIdle' in [localProperties]
+2018-05-26 18:22:02  [ main:725 ] - [ DEBUG ]  Found key 'jdbc.maxIdle' in [localProperties] with type [String] and value '10'
+2018-05-26 18:22:02  [ main:725 ] - [ DEBUG ]  Searching for key 'jdbc.initialSize' in [environmentProperties]
+2018-05-26 18:22:02  [ main:725 ] - [ DEBUG ]  Searching for key 'jdbc.initialSize' in [systemProperties]
+2018-05-26 18:22:02  [ main:726 ] - [ DEBUG ]  Searching for key 'jdbc.initialSize' in [systemEnvironment]
+2018-05-26 18:22:02  [ main:726 ] - [ DEBUG ]  Could not find key 'jdbc.initialSize' in any property source. Returning [null]
+2018-05-26 18:22:02  [ main:726 ] - [ DEBUG ]  Searching for key 'jdbc.initialSize' in [localProperties]
+2018-05-26 18:22:02  [ main:726 ] - [ DEBUG ]  Found key 'jdbc.initialSize' in [localProperties] with type [String] and value '5'
+2018-05-26 18:22:02  [ main:728 ] - [ DEBUG ]  Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2018-05-26 18:22:02  [ main:728 ] - [ DEBUG ]  Creating instance of bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2018-05-26 18:22:02  [ main:730 ] - [ DEBUG ]  Eagerly caching bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor' to allow for resolving potential circular references
+2018-05-26 18:22:02  [ main:730 ] - [ DEBUG ]  Finished creating instance of bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2018-05-26 18:22:02  [ main:785 ] - [ DEBUG ]  Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2018-05-26 18:22:02  [ main:785 ] - [ DEBUG ]  Creating instance of bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2018-05-26 18:22:02  [ main:786 ] - [ DEBUG ]  Eagerly caching bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor' to allow for resolving potential circular references
+2018-05-26 18:22:02  [ main:786 ] - [ DEBUG ]  Finished creating instance of bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2018-05-26 18:22:02  [ main:786 ] - [ DEBUG ]  Creating shared instance of singleton bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+2018-05-26 18:22:02  [ main:786 ] - [ DEBUG ]  Creating instance of bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+2018-05-26 18:22:02  [ main:787 ] - [ DEBUG ]  Eagerly caching bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor' to allow for resolving potential circular references
+2018-05-26 18:22:02  [ main:787 ] - [ DEBUG ]  Finished creating instance of bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+2018-05-26 18:22:02  [ main:787 ] - [ DEBUG ]  Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2018-05-26 18:22:02  [ main:788 ] - [ DEBUG ]  Creating instance of bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2018-05-26 18:22:02  [ main:795 ] - [ DEBUG ]  Eagerly caching bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor' to allow for resolving potential circular references
+2018-05-26 18:22:02  [ main:795 ] - [ DEBUG ]  Finished creating instance of bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2018-05-26 18:22:02  [ main:797 ] - [ DEBUG ]  Creating shared instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
+2018-05-26 18:22:02  [ main:797 ] - [ DEBUG ]  Creating instance of bean 'org.springframework.aop.config.internalAutoProxyCreator'
+2018-05-26 18:22:02  [ main:811 ] - [ DEBUG ]  Eagerly caching bean 'org.springframework.aop.config.internalAutoProxyCreator' to allow for resolving potential circular references
+2018-05-26 18:22:02  [ main:819 ] - [ DEBUG ]  Finished creating instance of bean 'org.springframework.aop.config.internalAutoProxyCreator'
+2018-05-26 18:22:02  [ main:823 ] - [ DEBUG ]  Unable to locate MessageSource with name 'messageSource': using default [org.springframework.context.support.DelegatingMessageSource@12c72c2]
+2018-05-26 18:22:02  [ main:825 ] - [ DEBUG ]  Unable to locate ApplicationEventMulticaster with name 'applicationEventMulticaster': using default [org.springframework.context.event.SimpleApplicationEventMulticaster@e136d3]
+2018-05-26 18:22:02  [ main:828 ] - [ INFO ]  Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@183967b: defining beans [org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0,dataSource,transactionManager,org.springframework.aop.config.internalAutoProxyCreator,org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0,org.springframework.transaction.interceptor.TransactionInterceptor#0,org.springframework.transaction.config.internalTransactionAdvisor,sqlSessionFactory,org.mybatis.spring.mapper.MapperScannerConfigurer#0,addressMapper,customerMapper,goodMapper,orderDetailMapper,orderMapper,shoppingcarMapper,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor]; root of factory hierarchy
+2018-05-26 18:22:02  [ main:828 ] - [ DEBUG ]  Returning cached instance of singleton bean 'org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0'
+2018-05-26 18:22:02  [ main:828 ] - [ DEBUG ]  Creating shared instance of singleton bean 'dataSource'
+2018-05-26 18:22:02  [ main:829 ] - [ DEBUG ]  Creating instance of bean 'dataSource'
+2018-05-26 18:22:02  [ main:870 ] - [ DEBUG ]  Eagerly caching bean 'dataSource' to allow for resolving potential circular references
+2018-05-26 18:22:02  [ main:896 ] - [ DEBUG ]  Creating shared instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+2018-05-26 18:22:02  [ main:897 ] - [ DEBUG ]  Creating instance of bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+2018-05-26 18:22:02  [ main:899 ] - [ DEBUG ]  Eagerly caching bean 'org.springframework.transaction.config.internalTransactionAdvisor' to allow for resolving potential circular references
+2018-05-26 18:22:02  [ main:908 ] - [ DEBUG ]  Creating shared instance of singleton bean 'org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0'
+2018-05-26 18:22:02  [ main:908 ] - [ DEBUG ]  Creating instance of bean 'org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0'
+2018-05-26 18:22:02  [ main:914 ] - [ DEBUG ]  Eagerly caching bean 'org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0' to allow for resolving potential circular references
+2018-05-26 18:22:02  [ main:917 ] - [ DEBUG ]  Skipping currently created advisor 'org.springframework.transaction.config.internalTransactionAdvisor'
+2018-05-26 18:22:02  [ main:923 ] - [ DEBUG ]  Finished creating instance of bean 'org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0'
+2018-05-26 18:22:02  [ main:924 ] - [ DEBUG ]  Finished creating instance of bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+2018-05-26 18:22:02  [ main:931 ] - [ DEBUG ]  Finished creating instance of bean 'dataSource'
+2018-05-26 18:22:02  [ main:932 ] - [ DEBUG ]  Creating shared instance of singleton bean 'transactionManager'
+2018-05-26 18:22:02  [ main:932 ] - [ DEBUG ]  Creating instance of bean 'transactionManager'
+2018-05-26 18:22:02  [ main:943 ] - [ DEBUG ]  Eagerly caching bean 'transactionManager' to allow for resolving potential circular references
+2018-05-26 18:22:02  [ main:948 ] - [ DEBUG ]  Returning cached instance of singleton bean 'dataSource'
+2018-05-26 18:22:02  [ main:950 ] - [ DEBUG ]  Invoking afterPropertiesSet() on bean with name 'transactionManager'
+2018-05-26 18:22:02  [ main:950 ] - [ DEBUG ]  Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+2018-05-26 18:22:02  [ main:951 ] - [ DEBUG ]  Finished creating instance of bean 'transactionManager'
+2018-05-26 18:22:02  [ main:951 ] - [ DEBUG ]  Returning cached instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
+2018-05-26 18:22:02  [ main:952 ] - [ DEBUG ]  Returning cached instance of singleton bean 'org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0'
+2018-05-26 18:22:02  [ main:952 ] - [ DEBUG ]  Creating shared instance of singleton bean 'org.springframework.transaction.interceptor.TransactionInterceptor#0'
+2018-05-26 18:22:02  [ main:952 ] - [ DEBUG ]  Creating instance of bean 'org.springframework.transaction.interceptor.TransactionInterceptor#0'
+2018-05-26 18:22:02  [ main:954 ] - [ DEBUG ]  Eagerly caching bean 'org.springframework.transaction.interceptor.TransactionInterceptor#0' to allow for resolving potential circular references
+2018-05-26 18:22:02  [ main:958 ] - [ DEBUG ]  Returning cached instance of singleton bean 'org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0'
+2018-05-26 18:22:02  [ main:961 ] - [ DEBUG ]  Invoking afterPropertiesSet() on bean with name 'org.springframework.transaction.interceptor.TransactionInterceptor#0'
+2018-05-26 18:22:02  [ main:961 ] - [ DEBUG ]  Finished creating instance of bean 'org.springframework.transaction.interceptor.TransactionInterceptor#0'
+2018-05-26 18:22:02  [ main:962 ] - [ DEBUG ]  Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+2018-05-26 18:22:02  [ main:962 ] - [ DEBUG ]  Creating shared instance of singleton bean 'sqlSessionFactory'
+2018-05-26 18:22:02  [ main:962 ] - [ DEBUG ]  Creating instance of bean 'sqlSessionFactory'
+2018-05-26 18:22:02  [ main:982 ] - [ DEBUG ]  Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2018-05-26 18:22:02  [ main:993 ] - [ DEBUG ]  Eagerly caching bean 'sqlSessionFactory' to allow for resolving potential circular references
+2018-05-26 18:22:02  [ main:999 ] - [ DEBUG ]  Returning cached instance of singleton bean 'dataSource'
+2018-05-26 18:22:02  [ main:999 ] - [ DEBUG ]  Invoking afterPropertiesSet() on bean with name 'sqlSessionFactory'
+2018-05-26 18:22:02  [ main:1206 ] - [ DEBUG ]  Class not found: org.jboss.vfs.VFS
+2018-05-26 18:22:02  [ main:1206 ] - [ DEBUG ]  JBoss 6 VFS API is not available in this environment.
+2018-05-26 18:22:02  [ main:1207 ] - [ DEBUG ]  Class not found: org.jboss.vfs.VirtualFile
+2018-05-26 18:22:02  [ main:1208 ] - [ DEBUG ]  VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+2018-05-26 18:22:02  [ main:1209 ] - [ DEBUG ]  Using VFS adapter org.apache.ibatis.io.DefaultVFS
+2018-05-26 18:22:02  [ main:1210 ] - [ DEBUG ]  Find JAR URL: file:/C:/Users/Administrator/eclipse-workspace/soapDiyDemo/build/classes/com/soapdiy/po
+2018-05-26 18:22:02  [ main:1210 ] - [ DEBUG ]  Not a JAR: file:/C:/Users/Administrator/eclipse-workspace/soapDiyDemo/build/classes/com/soapdiy/po
+2018-05-26 18:22:02  [ main:1279 ] - [ DEBUG ]  Reader entry: Address.class
+2018-05-26 18:22:02  [ main:1279 ] - [ DEBUG ]  Reader entry: Customer.class
+2018-05-26 18:22:02  [ main:1281 ] - [ DEBUG ]  Reader entry: Good.class
+2018-05-26 18:22:02  [ main:1282 ] - [ DEBUG ]  Reader entry: GoodCustom.class
+2018-05-26 18:22:02  [ main:1283 ] - [ DEBUG ]  Reader entry: Order.class
+2018-05-26 18:22:02  [ main:1284 ] - [ DEBUG ]  Reader entry: OrderDetail.class
+2018-05-26 18:22:02  [ main:1286 ] - [ DEBUG ]  Reader entry: Shoppingcar.class
+2018-05-26 18:22:02  [ main:1289 ] - [ DEBUG ]  Listing file:/C:/Users/Administrator/eclipse-workspace/soapDiyDemo/build/classes/com/soapdiy/po
+2018-05-26 18:22:02  [ main:1289 ] - [ DEBUG ]  Find JAR URL: file:/C:/Users/Administrator/eclipse-workspace/soapDiyDemo/build/classes/com/soapdiy/po/Address.class
+2018-05-26 18:22:02  [ main:1290 ] - [ DEBUG ]  Not a JAR: file:/C:/Users/Administrator/eclipse-workspace/soapDiyDemo/build/classes/com/soapdiy/po/Address.class
+2018-05-26 18:22:02  [ main:1292 ] - [ DEBUG ]  Reader entry: ����   4 O  com/soapdiy/po/Address  java/lang/Object add_id I customer Lcom/soapdiy/po/Customer; 	telephone name Ljava/lang/String; address <init> ()V Code
+2018-05-26 18:22:02  [ main:1293 ] - [ DEBUG ]  Find JAR URL: file:/C:/Users/Administrator/eclipse-workspace/soapDiyDemo/build/classes/com/soapdiy/po/Customer.class
+2018-05-26 18:22:02  [ main:1293 ] - [ DEBUG ]  Not a JAR: file:/C:/Users/Administrator/eclipse-workspace/soapDiyDemo/build/classes/com/soapdiy/po/Customer.class
+2018-05-26 18:22:02  [ main:1295 ] - [ DEBUG ]  Reader entry: ����   4 B  com/soapdiy/po/Customer  java/lang/Object c_id I username Ljava/lang/String; password 	telephone <init> ()V Code
+2018-05-26 18:22:02  [ main:1296 ] - [ DEBUG ]  Find JAR URL: file:/C:/Users/Administrator/eclipse-workspace/soapDiyDemo/build/classes/com/soapdiy/po/Good.class
+2018-05-26 18:22:02  [ main:1296 ] - [ DEBUG ]  Not a JAR: file:/C:/Users/Administrator/eclipse-workspace/soapDiyDemo/build/classes/com/soapdiy/po/Good.class
+2018-05-26 18:22:02  [ main:1297 ] - [ DEBUG ]  Reader entry: ����   4 r  com/soapdiy/po/Good  java/lang/Object g_id I soap Ljava/lang/String; color smell shape power flower bag note price D <init> ()V Code
+2018-05-26 18:22:02  [ main:1298 ] - [ DEBUG ]  Find JAR URL: file:/C:/Users/Administrator/eclipse-workspace/soapDiyDemo/build/classes/com/soapdiy/po/GoodCustom.class
+2018-05-26 18:22:02  [ main:1298 ] - [ DEBUG ]  Not a JAR: file:/C:/Users/Administrator/eclipse-workspace/soapDiyDemo/build/classes/com/soapdiy/po/GoodCustom.class
+2018-05-26 18:22:02  [ main:1300 ] - [ DEBUG ]  Reader entry: ����   4   com/soapdiy/po/GoodCustom  java/lang/Object goodList Ljava/util/List; 	Signature 'Ljava/util/List<Lcom/soapdiy/po/Good;>; <init> ()V Code
+2018-05-26 18:22:02  [ main:1300 ] - [ DEBUG ]  Find JAR URL: file:/C:/Users/Administrator/eclipse-workspace/soapDiyDemo/build/classes/com/soapdiy/po/Order.class
+2018-05-26 18:22:02  [ main:1301 ] - [ DEBUG ]  Not a JAR: file:/C:/Users/Administrator/eclipse-workspace/soapDiyDemo/build/classes/com/soapdiy/po/Order.class
+2018-05-26 18:22:02  [ main:1303 ] - [ DEBUG ]  Reader entry: ����   4 a  com/soapdiy/po/Order  java/lang/Object o_id I customer Lcom/soapdiy/po/Customer; address Lcom/soapdiy/po/Address; money D date Ljava/util/Date; state <init> ()V Code
+2018-05-26 18:22:02  [ main:1305 ] - [ DEBUG ]  Find JAR URL: file:/C:/Users/Administrator/eclipse-workspace/soapDiyDemo/build/classes/com/soapdiy/po/OrderDetail.class
+2018-05-26 18:22:02  [ main:1306 ] - [ DEBUG ]  Not a JAR: file:/C:/Users/Administrator/eclipse-workspace/soapDiyDemo/build/classes/com/soapdiy/po/OrderDetail.class
+2018-05-26 18:22:02  [ main:1309 ] - [ DEBUG ]  Reader entry: ����   4 Q  com/soapdiy/po/OrderDetail  java/lang/Object od_id I order Lcom/soapdiy/po/Order; good Lcom/soapdiy/po/Good; count state <init> ()V Code
+2018-05-26 18:22:02  [ main:1310 ] - [ DEBUG ]  Find JAR URL: file:/C:/Users/Administrator/eclipse-workspace/soapDiyDemo/build/classes/com/soapdiy/po/Shoppingcar.class
+2018-05-26 18:22:02  [ main:1312 ] - [ DEBUG ]  Not a JAR: file:/C:/Users/Administrator/eclipse-workspace/soapDiyDemo/build/classes/com/soapdiy/po/Shoppingcar.class
+2018-05-26 18:22:02  [ main:1314 ] - [ DEBUG ]  Reader entry: ����   4 J  com/soapdiy/po/Shoppingcar  java/lang/Object sh_id I customer Lcom/soapdiy/po/Customer; good Lcom/soapdiy/po/Good; count <init> ()V Code
+2018-05-26 18:22:02  [ main:1315 ] - [ DEBUG ]  Checking to see if class com.soapdiy.po.Address matches criteria [is assignable to Object]
+2018-05-26 18:22:02  [ main:1316 ] - [ DEBUG ]  Checking to see if class com.soapdiy.po.Customer matches criteria [is assignable to Object]
+2018-05-26 18:22:02  [ main:1320 ] - [ DEBUG ]  Checking to see if class com.soapdiy.po.Good matches criteria [is assignable to Object]
+2018-05-26 18:22:02  [ main:1324 ] - [ DEBUG ]  Checking to see if class com.soapdiy.po.GoodCustom matches criteria [is assignable to Object]
+2018-05-26 18:22:02  [ main:1327 ] - [ DEBUG ]  Checking to see if class com.soapdiy.po.Order matches criteria [is assignable to Object]
+2018-05-26 18:22:02  [ main:1330 ] - [ DEBUG ]  Checking to see if class com.soapdiy.po.OrderDetail matches criteria [is assignable to Object]
+2018-05-26 18:22:02  [ main:1332 ] - [ DEBUG ]  Checking to see if class com.soapdiy.po.Shoppingcar matches criteria [is assignable to Object]
+2018-05-26 18:22:02  [ main:1343 ] - [ DEBUG ]  Parsed configuration file: 'class path resource [mybatis-config.xml]'
+2018-05-26 18:22:02  [ main:1344 ] - [ DEBUG ]  Property 'mapperLocations' was not specified or no matching resources found
+2018-05-26 18:22:02  [ main:1345 ] - [ DEBUG ]  Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+2018-05-26 18:22:02  [ main:1348 ] - [ DEBUG ]  Finished creating instance of bean 'sqlSessionFactory'
+2018-05-26 18:22:02  [ main:1348 ] - [ DEBUG ]  Returning cached instance of singleton bean 'org.mybatis.spring.mapper.MapperScannerConfigurer#0'
+2018-05-26 18:22:02  [ main:1348 ] - [ DEBUG ]  Creating shared instance of singleton bean 'addressMapper'
+2018-05-26 18:22:02  [ main:1348 ] - [ DEBUG ]  Creating instance of bean 'addressMapper'
+2018-05-26 18:22:02  [ main:1366 ] - [ DEBUG ]  Eagerly caching bean 'addressMapper' to allow for resolving potential circular references
+2018-05-26 18:22:02  [ main:1375 ] - [ DEBUG ]  Returning cached instance of singleton bean 'sqlSessionFactory'
+2018-05-26 18:22:02  [ main:1376 ] - [ DEBUG ]  Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+2018-05-26 18:22:02  [ main:1393 ] - [ DEBUG ]  Invoking afterPropertiesSet() on bean with name 'addressMapper'
+2018-05-26 18:22:02  [ main:1543 ] - [ DEBUG ]  Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+2018-05-26 18:22:02  [ main:1544 ] - [ DEBUG ]  Finished creating instance of bean 'addressMapper'
+2018-05-26 18:22:02  [ main:1544 ] - [ DEBUG ]  Creating shared instance of singleton bean 'customerMapper'
+2018-05-26 18:22:02  [ main:1544 ] - [ DEBUG ]  Creating instance of bean 'customerMapper'
+2018-05-26 18:22:02  [ main:1547 ] - [ DEBUG ]  Eagerly caching bean 'customerMapper' to allow for resolving potential circular references
+2018-05-26 18:22:02  [ main:1547 ] - [ DEBUG ]  Returning cached instance of singleton bean 'sqlSessionFactory'
+2018-05-26 18:22:02  [ main:1548 ] - [ DEBUG ]  Invoking afterPropertiesSet() on bean with name 'customerMapper'
+2018-05-26 18:22:02  [ main:1565 ] - [ DEBUG ]  Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+2018-05-26 18:22:02  [ main:1565 ] - [ DEBUG ]  Finished creating instance of bean 'customerMapper'
+2018-05-26 18:22:02  [ main:1565 ] - [ DEBUG ]  Creating shared instance of singleton bean 'goodMapper'
+2018-05-26 18:22:02  [ main:1565 ] - [ DEBUG ]  Creating instance of bean 'goodMapper'
+2018-05-26 18:22:02  [ main:1568 ] - [ DEBUG ]  Eagerly caching bean 'goodMapper' to allow for resolving potential circular references
+2018-05-26 18:22:02  [ main:1569 ] - [ DEBUG ]  Returning cached instance of singleton bean 'sqlSessionFactory'
+2018-05-26 18:22:02  [ main:1570 ] - [ DEBUG ]  Invoking afterPropertiesSet() on bean with name 'goodMapper'
+2018-05-26 18:22:02  [ main:1589 ] - [ DEBUG ]  Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+2018-05-26 18:22:02  [ main:1590 ] - [ DEBUG ]  Finished creating instance of bean 'goodMapper'
+2018-05-26 18:22:02  [ main:1591 ] - [ DEBUG ]  Creating shared instance of singleton bean 'orderDetailMapper'
+2018-05-26 18:22:02  [ main:1591 ] - [ DEBUG ]  Creating instance of bean 'orderDetailMapper'
+2018-05-26 18:22:02  [ main:1594 ] - [ DEBUG ]  Eagerly caching bean 'orderDetailMapper' to allow for resolving potential circular references
+2018-05-26 18:22:02  [ main:1595 ] - [ DEBUG ]  Returning cached instance of singleton bean 'sqlSessionFactory'
+2018-05-26 18:22:02  [ main:1595 ] - [ DEBUG ]  Invoking afterPropertiesSet() on bean with name 'orderDetailMapper'
+2018-05-26 18:22:02  [ main:1613 ] - [ DEBUG ]  Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+2018-05-26 18:22:02  [ main:1614 ] - [ DEBUG ]  Finished creating instance of bean 'orderDetailMapper'
+2018-05-26 18:22:02  [ main:1614 ] - [ DEBUG ]  Creating shared instance of singleton bean 'orderMapper'
+2018-05-26 18:22:02  [ main:1614 ] - [ DEBUG ]  Creating instance of bean 'orderMapper'
+2018-05-26 18:22:02  [ main:1616 ] - [ DEBUG ]  Eagerly caching bean 'orderMapper' to allow for resolving potential circular references
+2018-05-26 18:22:02  [ main:1616 ] - [ DEBUG ]  Returning cached instance of singleton bean 'sqlSessionFactory'
+2018-05-26 18:22:02  [ main:1617 ] - [ DEBUG ]  Invoking afterPropertiesSet() on bean with name 'orderMapper'
+2018-05-26 18:22:02  [ main:1635 ] - [ DEBUG ]  Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+2018-05-26 18:22:02  [ main:1636 ] - [ DEBUG ]  Finished creating instance of bean 'orderMapper'
+2018-05-26 18:22:02  [ main:1636 ] - [ DEBUG ]  Creating shared instance of singleton bean 'shoppingcarMapper'
+2018-05-26 18:22:02  [ main:1636 ] - [ DEBUG ]  Creating instance of bean 'shoppingcarMapper'
+2018-05-26 18:22:02  [ main:1639 ] - [ DEBUG ]  Eagerly caching bean 'shoppingcarMapper' to allow for resolving potential circular references
+2018-05-26 18:22:02  [ main:1639 ] - [ DEBUG ]  Returning cached instance of singleton bean 'sqlSessionFactory'
+2018-05-26 18:22:02  [ main:1640 ] - [ DEBUG ]  Invoking afterPropertiesSet() on bean with name 'shoppingcarMapper'
+2018-05-26 18:22:02  [ main:1655 ] - [ DEBUG ]  Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+2018-05-26 18:22:02  [ main:1655 ] - [ DEBUG ]  Finished creating instance of bean 'shoppingcarMapper'
+2018-05-26 18:22:02  [ main:1655 ] - [ DEBUG ]  Returning cached instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2018-05-26 18:22:02  [ main:1655 ] - [ DEBUG ]  Returning cached instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2018-05-26 18:22:02  [ main:1656 ] - [ DEBUG ]  Returning cached instance of singleton bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+2018-05-26 18:22:02  [ main:1656 ] - [ DEBUG ]  Returning cached instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2018-05-26 18:22:02  [ main:1658 ] - [ DEBUG ]  Unable to locate LifecycleProcessor with name 'lifecycleProcessor': using default [org.springframework.context.support.DefaultLifecycleProcessor@ea606c]
+2018-05-26 18:22:02  [ main:1658 ] - [ DEBUG ]  Returning cached instance of singleton bean 'lifecycleProcessor'
+2018-05-26 18:22:02  [ main:1660 ] - [ DEBUG ]  Returning cached instance of singleton bean 'sqlSessionFactory'
+2018-05-26 18:22:02  [ main:1661 ] - [ DEBUG ]  Searching for key 'spring.liveBeansView.mbeanDomain' in [systemProperties]
+2018-05-26 18:22:02  [ main:1661 ] - [ DEBUG ]  Searching for key 'spring.liveBeansView.mbeanDomain' in [systemEnvironment]
+2018-05-26 18:22:02  [ main:1662 ] - [ DEBUG ]  Could not find key 'spring.liveBeansView.mbeanDomain' in any property source. Returning [null]
+2018-05-26 18:22:27  [ main:1 ] - [ DEBUG ]  Adding [systemProperties] PropertySource with lowest search precedence
+2018-05-26 18:22:27  [ main:6 ] - [ DEBUG ]  Adding [systemEnvironment] PropertySource with lowest search precedence
+2018-05-26 18:22:27  [ main:9 ] - [ DEBUG ]  Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+2018-05-26 18:22:27  [ main:18 ] - [ INFO ]  Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@33fae0: startup date [Sat May 26 18:22:27 GMT+08:00 2018]; root of context hierarchy
+2018-05-26 18:22:28  [ main:64 ] - [ DEBUG ]  Adding [systemProperties] PropertySource with lowest search precedence
+2018-05-26 18:22:28  [ main:65 ] - [ DEBUG ]  Adding [systemEnvironment] PropertySource with lowest search precedence
+2018-05-26 18:22:28  [ main:65 ] - [ DEBUG ]  Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+2018-05-26 18:22:28  [ main:79 ] - [ INFO ]  Loading XML bean definitions from class path resource [applicationContext.xml]
+2018-05-26 18:22:28  [ main:115 ] - [ DEBUG ]  Using JAXP provider [com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderFactoryImpl]
+2018-05-26 18:22:28  [ main:192 ] - [ DEBUG ]  Loading schema mappings from [META-INF/spring.schemas]
+2018-05-26 18:22:28  [ main:203 ] - [ DEBUG ]  Loaded schema mappings: {http://www.springframework.org/schema/tx/spring-tx-2.5.xsd=org/springframework/transaction/config/spring-tx-2.5.xsd, http://www.springframework.org/schema/context/spring-context-3.1.xsd=org/springframework/context/config/spring-context-3.1.xsd, http://www.springframework.org/schema/jms/spring-jms-2.5.xsd=org/springframework/jms/config/spring-jms-2.5.xsd, http://www.springframework.org/schema/util/spring-util-3.0.xsd=org/springframework/beans/factory/xml/spring-util-3.0.xsd, http://www.springframework.org/schema/tool/spring-tool.xsd=org/springframework/beans/factory/xml/spring-tool-3.2.xsd, http://www.springframework.org/schema/aop/spring-aop-3.2.xsd=org/springframework/aop/config/spring-aop-3.2.xsd, http://mybatis.org/schema/mybatis-spring-1.2.xsd=org/mybatis/spring/config/mybatis-spring-1.2.xsd, http://www.springframework.org/schema/mvc/spring-mvc-3.2.xsd=org/springframework/web/servlet/config/spring-mvc-3.2.xsd, http://www.springframework.org/schema/oxm/spring-oxm-3.0.xsd=org/springframework/oxm/config/spring-oxm-3.0.xsd, http://www.springframework.org/schema/lang/spring-lang-3.2.xsd=org/springframework/scripting/config/spring-lang-3.2.xsd, http://www.springframework.org/schema/cache/spring-cache-3.2.xsd=org/springframework/cache/config/spring-cache-3.2.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc-3.1.xsd=org/springframework/jdbc/config/spring-jdbc-3.1.xsd, http://www.springframework.org/schema/util/spring-util-2.0.xsd=org/springframework/beans/factory/xml/spring-util-2.0.xsd, http://www.springframework.org/schema/tool/spring-tool-3.2.xsd=org/springframework/beans/factory/xml/spring-tool-3.2.xsd, http://www.springframework.org/schema/context/spring-context.xsd=org/springframework/context/config/spring-context-3.2.xsd, http://www.springframework.org/schema/jee/spring-jee-3.2.xsd=org/springframework/ejb/config/spring-jee-3.2.xsd, http://www.springframework.org/schema/context/spring-context-3.0.xsd=org/springframework/context/config/spring-context-3.0.xsd, http://www.springframework.org/schema/util/spring-util-2.5.xsd=org/springframework/beans/factory/xml/spring-util-2.5.xsd, http://www.springframework.org/schema/beans/spring-beans-3.2.xsd=org/springframework/beans/factory/xml/spring-beans-3.2.xsd, http://www.springframework.org/schema/aop/spring-aop-3.1.xsd=org/springframework/aop/config/spring-aop-3.1.xsd, http://www.springframework.org/schema/mvc/spring-mvc.xsd=org/springframework/web/servlet/config/spring-mvc-3.2.xsd, http://www.springframework.org/schema/mvc/spring-mvc-3.1.xsd=org/springframework/web/servlet/config/spring-mvc-3.1.xsd, http://www.springframework.org/schema/lang/spring-lang-3.1.xsd=org/springframework/scripting/config/spring-lang-3.1.xsd, http://www.springframework.org/schema/tx/spring-tx-3.2.xsd=org/springframework/transaction/config/spring-tx-3.2.xsd, http://www.springframework.org/schema/cache/spring-cache-3.1.xsd=org/springframework/cache/config/spring-cache-3.1.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc-3.0.xsd=org/springframework/jdbc/config/spring-jdbc-3.0.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc.xsd=org/springframework/jdbc/config/spring-jdbc-3.2.xsd, http://www.springframework.org/schema/tool/spring-tool-3.1.xsd=org/springframework/beans/factory/xml/spring-tool-3.1.xsd, http://www.springframework.org/schema/jee/spring-jee-3.1.xsd=org/springframework/ejb/config/spring-jee-3.1.xsd, http://www.springframework.org/schema/task/spring-task-3.2.xsd=org/springframework/scheduling/config/spring-task-3.2.xsd, http://www.springframework.org/schema/beans/spring-beans-3.1.xsd=org/springframework/beans/factory/xml/spring-beans-3.1.xsd, http://www.springframework.org/schema/util/spring-util.xsd=org/springframework/beans/factory/xml/spring-util-3.2.xsd, http://www.springframework.org/schema/aop/spring-aop-3.0.xsd=org/springframework/aop/config/spring-aop-3.0.xsd, http://www.springframework.org/schema/jms/spring-jms-3.2.xsd=org/springframework/jms/config/spring-jms-3.2.xsd, http://www.springframework.org/schema/mvc/spring-mvc-3.0.xsd=org/springframework/web/servlet/config/spring-mvc-3.0.xsd, http://www.springframework.org/schema/beans/spring-beans.xsd=org/springframework/beans/factory/xml/spring-beans-3.2.xsd, http://www.springframework.org/schema/lang/spring-lang-3.0.xsd=org/springframework/scripting/config/spring-lang-3.0.xsd, http://www.springframework.org/schema/tx/spring-tx-3.1.xsd=org/springframework/transaction/config/spring-tx-3.1.xsd, http://mybatis.org/schema/mybatis-spring.xsd=org/mybatis/spring/config/mybatis-spring-1.2.xsd, http://www.springframework.org/schema/context/spring-context-2.5.xsd=org/springframework/context/config/spring-context-2.5.xsd, http://www.springframework.org/schema/tool/spring-tool-3.0.xsd=org/springframework/beans/factory/xml/spring-tool-3.0.xsd, http://www.springframework.org/schema/aop/spring-aop-2.0.xsd=org/springframework/aop/config/spring-aop-2.0.xsd, http://www.springframework.org/schema/jee/spring-jee-3.0.xsd=org/springframework/ejb/config/spring-jee-3.0.xsd, http://www.springframework.org/schema/task/spring-task-3.1.xsd=org/springframework/scheduling/config/spring-task-3.1.xsd, http://www.springframework.org/schema/beans/spring-beans-3.0.xsd=org/springframework/beans/factory/xml/spring-beans-3.0.xsd, http://www.springframework.org/schema/jee/spring-jee.xsd=org/springframework/ejb/config/spring-jee-3.2.xsd, http://www.springframework.org/schema/aop/spring-aop-2.5.xsd=org/springframework/aop/config/spring-aop-2.5.xsd, http://www.springframework.org/schema/jms/spring-jms.xsd=org/springframework/jms/config/spring-jms-3.2.xsd, http://www.springframework.org/schema/lang/spring-lang-2.0.xsd=org/springframework/scripting/config/spring-lang-2.0.xsd, http://www.springframework.org/schema/jms/spring-jms-3.1.xsd=org/springframework/jms/config/spring-jms-3.1.xsd, http://www.springframework.org/schema/oxm/spring-oxm.xsd=org/springframework/oxm/config/spring-oxm-3.2.xsd, http://www.springframework.org/schema/util/spring-util-3.2.xsd=org/springframework/beans/factory/xml/spring-util-3.2.xsd, http://www.springframework.org/schema/task/spring-task.xsd=org/springframework/scheduling/config/spring-task-3.2.xsd, http://www.springframework.org/schema/tool/spring-tool-2.0.xsd=org/springframework/beans/factory/xml/spring-tool-2.0.xsd, http://www.springframework.org/schema/tx/spring-tx-3.0.xsd=org/springframework/transaction/config/spring-tx-3.0.xsd, http://www.springframework.org/schema/lang/spring-lang-2.5.xsd=org/springframework/scripting/config/spring-lang-2.5.xsd, http://www.springframework.org/schema/jee/spring-jee-2.0.xsd=org/springframework/ejb/config/spring-jee-2.0.xsd, http://www.springframework.org/schema/oxm/spring-oxm-3.2.xsd=org/springframework/oxm/config/spring-oxm-3.2.xsd, http://www.springframework.org/schema/tool/spring-tool-2.5.xsd=org/springframework/beans/factory/xml/spring-tool-2.5.xsd, http://www.springframework.org/schema/jee/spring-jee-2.5.xsd=org/springframework/ejb/config/spring-jee-2.5.xsd, http://www.springframework.org/schema/task/spring-task-3.0.xsd=org/springframework/scheduling/config/spring-task-3.0.xsd, http://www.springframework.org/schema/lang/spring-lang.xsd=org/springframework/scripting/config/spring-lang-3.2.xsd, http://www.springframework.org/schema/context/spring-context-3.2.xsd=org/springframework/context/config/spring-context-3.2.xsd, http://www.springframework.org/schema/jms/spring-jms-3.0.xsd=org/springframework/jms/config/spring-jms-3.0.xsd, http://www.springframework.org/schema/util/spring-util-3.1.xsd=org/springframework/beans/factory/xml/spring-util-3.1.xsd, http://www.springframework.org/schema/beans/spring-beans-2.0.xsd=org/springframework/beans/factory/xml/spring-beans-2.0.xsd, http://www.springframework.org/schema/cache/spring-cache.xsd=org/springframework/cache/config/spring-cache-3.2.xsd, http://www.springframework.org/schema/tx/spring-tx.xsd=org/springframework/transaction/config/spring-tx-3.2.xsd, http://www.springframework.org/schema/beans/spring-beans-2.5.xsd=org/springframework/beans/factory/xml/spring-beans-2.5.xsd, http://www.springframework.org/schema/oxm/spring-oxm-3.1.xsd=org/springframework/oxm/config/spring-oxm-3.1.xsd, http://www.springframework.org/schema/tx/spring-tx-2.0.xsd=org/springframework/transaction/config/spring-tx-2.0.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc-3.2.xsd=org/springframework/jdbc/config/spring-jdbc-3.2.xsd, http://www.springframework.org/schema/aop/spring-aop.xsd=org/springframework/aop/config/spring-aop-3.2.xsd}
+2018-05-26 18:22:28  [ main:205 ] - [ DEBUG ]  Found XML schema [http://www.springframework.org/schema/beans/spring-beans.xsd] in classpath: org/springframework/beans/factory/xml/spring-beans-3.2.xsd
+2018-05-26 18:22:28  [ main:250 ] - [ DEBUG ]  Found XML schema [http://www.springframework.org/schema/context/spring-context.xsd] in classpath: org/springframework/context/config/spring-context-3.2.xsd
+2018-05-26 18:22:28  [ main:255 ] - [ DEBUG ]  Found XML schema [http://www.springframework.org/schema/tool/spring-tool-3.2.xsd] in classpath: org/springframework/beans/factory/xml/spring-tool-3.2.xsd
+2018-05-26 18:22:28  [ main:262 ] - [ DEBUG ]  Found XML schema [http://www.springframework.org/schema/tx/spring-tx.xsd] in classpath: org/springframework/transaction/config/spring-tx-3.2.xsd
+2018-05-26 18:22:28  [ main:274 ] - [ DEBUG ]  Loading bean definitions
+2018-05-26 18:22:28  [ main:290 ] - [ DEBUG ]  Loaded NamespaceHandler mappings: {http://www.springframework.org/schema/p=org.springframework.beans.factory.xml.SimplePropertyNamespaceHandler, http://www.springframework.org/schema/mvc=org.springframework.web.servlet.config.MvcNamespaceHandler, http://www.springframework.org/schema/util=org.springframework.beans.factory.xml.UtilNamespaceHandler, http://www.springframework.org/schema/jee=org.springframework.ejb.config.JeeNamespaceHandler, http://www.springframework.org/schema/aop=org.springframework.aop.config.AopNamespaceHandler, http://www.springframework.org/schema/oxm=org.springframework.oxm.config.OxmNamespaceHandler, http://www.springframework.org/schema/jdbc=org.springframework.jdbc.config.JdbcNamespaceHandler, http://www.springframework.org/schema/cache=org.springframework.cache.config.CacheNamespaceHandler, http://mybatis.org/schema/mybatis-spring=org.mybatis.spring.config.NamespaceHandler, http://www.springframework.org/schema/c=org.springframework.beans.factory.xml.SimpleConstructorNamespaceHandler, http://www.springframework.org/schema/tx=org.springframework.transaction.config.TxNamespaceHandler, http://www.springframework.org/schema/jms=org.springframework.jms.config.JmsNamespaceHandler, http://www.springframework.org/schema/task=org.springframework.scheduling.config.TaskNamespaceHandler, http://www.springframework.org/schema/lang=org.springframework.scripting.config.LangNamespaceHandler, http://www.springframework.org/schema/context=org.springframework.context.config.ContextNamespaceHandler}
+2018-05-26 18:22:28  [ main:343 ] - [ DEBUG ]  Neither XML 'id' nor 'name' specified - using generated bean name [org.mybatis.spring.mapper.MapperScannerConfigurer#0]
+2018-05-26 18:22:28  [ main:344 ] - [ DEBUG ]  Loaded 9 bean definitions from location pattern [applicationContext.xml]
+2018-05-26 18:22:28  [ main:344 ] - [ DEBUG ]  Bean factory for org.springframework.context.support.ClassPathXmlApplicationContext@33fae0: org.springframework.beans.factory.support.DefaultListableBeanFactory@183967b: defining beans [org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0,dataSource,transactionManager,org.springframework.aop.config.internalAutoProxyCreator,org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0,org.springframework.transaction.interceptor.TransactionInterceptor#0,org.springframework.transaction.config.internalTransactionAdvisor,sqlSessionFactory,org.mybatis.spring.mapper.MapperScannerConfigurer#0]; root of factory hierarchy
+2018-05-26 18:22:28  [ main:368 ] - [ DEBUG ]  Creating shared instance of singleton bean 'org.mybatis.spring.mapper.MapperScannerConfigurer#0'
+2018-05-26 18:22:28  [ main:368 ] - [ DEBUG ]  Creating instance of bean 'org.mybatis.spring.mapper.MapperScannerConfigurer#0'
+2018-05-26 18:22:28  [ main:384 ] - [ DEBUG ]  Eagerly caching bean 'org.mybatis.spring.mapper.MapperScannerConfigurer#0' to allow for resolving potential circular references
+2018-05-26 18:22:28  [ main:435 ] - [ DEBUG ]  Invoking afterPropertiesSet() on bean with name 'org.mybatis.spring.mapper.MapperScannerConfigurer#0'
+2018-05-26 18:22:28  [ main:437 ] - [ DEBUG ]  Finished creating instance of bean 'org.mybatis.spring.mapper.MapperScannerConfigurer#0'
+2018-05-26 18:22:28  [ main:443 ] - [ DEBUG ]  Adding [systemProperties] PropertySource with lowest search precedence
+2018-05-26 18:22:28  [ main:444 ] - [ DEBUG ]  Adding [systemEnvironment] PropertySource with lowest search precedence
+2018-05-26 18:22:28  [ main:444 ] - [ DEBUG ]  Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+2018-05-26 18:22:28  [ main:453 ] - [ DEBUG ]  Looking for matching resources in directory tree [C:\Users\Administrator\eclipse-workspace\soapDiyDemo\build\classes\com\soapdiy\mapper]
+2018-05-26 18:22:28  [ main:454 ] - [ DEBUG ]  Searching directory [C:\Users\Administrator\eclipse-workspace\soapDiyDemo\build\classes\com\soapdiy\mapper] for files matching pattern [C:/Users/Administrator/eclipse-workspace/soapDiyDemo/build/classes/com/soapdiy/mapper/**/*.class]
+2018-05-26 18:22:28  [ main:463 ] - [ DEBUG ]  Resolved location pattern [classpath*:com/soapdiy/mapper/**/*.class] to resources [file [C:\Users\Administrator\eclipse-workspace\soapDiyDemo\build\classes\com\soapdiy\mapper\AddressMapper.class], file [C:\Users\Administrator\eclipse-workspace\soapDiyDemo\build\classes\com\soapdiy\mapper\CustomerMapper.class], file [C:\Users\Administrator\eclipse-workspace\soapDiyDemo\build\classes\com\soapdiy\mapper\GoodMapper.class], file [C:\Users\Administrator\eclipse-workspace\soapDiyDemo\build\classes\com\soapdiy\mapper\OrderDetailMapper.class], file [C:\Users\Administrator\eclipse-workspace\soapDiyDemo\build\classes\com\soapdiy\mapper\OrderMapper.class], file [C:\Users\Administrator\eclipse-workspace\soapDiyDemo\build\classes\com\soapdiy\mapper\ShoppingcarMapper.class]]
+2018-05-26 18:22:28  [ main:480 ] - [ DEBUG ]  Identified candidate component class: file [C:\Users\Administrator\eclipse-workspace\soapDiyDemo\build\classes\com\soapdiy\mapper\AddressMapper.class]
+2018-05-26 18:22:28  [ main:481 ] - [ DEBUG ]  Identified candidate component class: file [C:\Users\Administrator\eclipse-workspace\soapDiyDemo\build\classes\com\soapdiy\mapper\CustomerMapper.class]
+2018-05-26 18:22:28  [ main:482 ] - [ DEBUG ]  Identified candidate component class: file [C:\Users\Administrator\eclipse-workspace\soapDiyDemo\build\classes\com\soapdiy\mapper\GoodMapper.class]
+2018-05-26 18:22:28  [ main:484 ] - [ DEBUG ]  Identified candidate component class: file [C:\Users\Administrator\eclipse-workspace\soapDiyDemo\build\classes\com\soapdiy\mapper\OrderDetailMapper.class]
+2018-05-26 18:22:28  [ main:485 ] - [ DEBUG ]  Identified candidate component class: file [C:\Users\Administrator\eclipse-workspace\soapDiyDemo\build\classes\com\soapdiy\mapper\OrderMapper.class]
+2018-05-26 18:22:28  [ main:486 ] - [ DEBUG ]  Identified candidate component class: file [C:\Users\Administrator\eclipse-workspace\soapDiyDemo\build\classes\com\soapdiy\mapper\ShoppingcarMapper.class]
+2018-05-26 18:22:28  [ main:489 ] - [ DEBUG ]  Creating MapperFactoryBean with name 'addressMapper' and 'com.soapdiy.mapper.AddressMapper' mapperInterface
+2018-05-26 18:22:28  [ main:490 ] - [ DEBUG ]  Creating MapperFactoryBean with name 'customerMapper' and 'com.soapdiy.mapper.CustomerMapper' mapperInterface
+2018-05-26 18:22:28  [ main:491 ] - [ DEBUG ]  Creating MapperFactoryBean with name 'goodMapper' and 'com.soapdiy.mapper.GoodMapper' mapperInterface
+2018-05-26 18:22:28  [ main:491 ] - [ DEBUG ]  Creating MapperFactoryBean with name 'orderDetailMapper' and 'com.soapdiy.mapper.OrderDetailMapper' mapperInterface
+2018-05-26 18:22:28  [ main:491 ] - [ DEBUG ]  Creating MapperFactoryBean with name 'orderMapper' and 'com.soapdiy.mapper.OrderMapper' mapperInterface
+2018-05-26 18:22:28  [ main:491 ] - [ DEBUG ]  Creating MapperFactoryBean with name 'shoppingcarMapper' and 'com.soapdiy.mapper.ShoppingcarMapper' mapperInterface
+2018-05-26 18:22:28  [ main:496 ] - [ DEBUG ]  Creating shared instance of singleton bean 'org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0'
+2018-05-26 18:22:28  [ main:496 ] - [ DEBUG ]  Creating instance of bean 'org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0'
+2018-05-26 18:22:28  [ main:499 ] - [ DEBUG ]  Eagerly caching bean 'org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0' to allow for resolving potential circular references
+2018-05-26 18:22:28  [ main:508 ] - [ DEBUG ]  Finished creating instance of bean 'org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0'
+2018-05-26 18:22:28  [ main:508 ] - [ DEBUG ]  Adding [environmentProperties] PropertySource with lowest search precedence
+2018-05-26 18:22:28  [ main:509 ] - [ INFO ]  Loading properties file from class path resource [db.properties]
+2018-05-26 18:22:28  [ main:510 ] - [ DEBUG ]  Adding [localProperties] PropertySource with lowest search precedence
+2018-05-26 18:22:28  [ main:512 ] - [ DEBUG ]  Searching for key 'jdbc.driver' in [environmentProperties]
+2018-05-26 18:22:28  [ main:512 ] - [ DEBUG ]  Searching for key 'jdbc.driver' in [systemProperties]
+2018-05-26 18:22:28  [ main:512 ] - [ DEBUG ]  Searching for key 'jdbc.driver' in [systemEnvironment]
+2018-05-26 18:22:28  [ main:513 ] - [ DEBUG ]  Could not find key 'jdbc.driver' in any property source. Returning [null]
+2018-05-26 18:22:28  [ main:514 ] - [ DEBUG ]  Searching for key 'jdbc.driver' in [localProperties]
+2018-05-26 18:22:28  [ main:514 ] - [ DEBUG ]  Found key 'jdbc.driver' in [localProperties] with type [String] and value 'com.mysql.jdbc.Driver'
+2018-05-26 18:22:28  [ main:516 ] - [ DEBUG ]  Searching for key 'jdbc.url' in [environmentProperties]
+2018-05-26 18:22:28  [ main:516 ] - [ DEBUG ]  Searching for key 'jdbc.url' in [systemProperties]
+2018-05-26 18:22:28  [ main:517 ] - [ DEBUG ]  Searching for key 'jdbc.url' in [systemEnvironment]
+2018-05-26 18:22:28  [ main:517 ] - [ DEBUG ]  Could not find key 'jdbc.url' in any property source. Returning [null]
+2018-05-26 18:22:28  [ main:517 ] - [ DEBUG ]  Searching for key 'jdbc.url' in [localProperties]
+2018-05-26 18:22:28  [ main:517 ] - [ DEBUG ]  Found key 'jdbc.url' in [localProperties] with type [String] and value 'jdbc:mysql://localhost:3306/shopping?useSSL=false'
+2018-05-26 18:22:28  [ main:518 ] - [ DEBUG ]  Searching for key 'jdbc.user' in [environmentProperties]
+2018-05-26 18:22:28  [ main:518 ] - [ DEBUG ]  Searching for key 'jdbc.user' in [systemProperties]
+2018-05-26 18:22:28  [ main:518 ] - [ DEBUG ]  Searching for key 'jdbc.user' in [systemEnvironment]
+2018-05-26 18:22:28  [ main:518 ] - [ DEBUG ]  Could not find key 'jdbc.user' in any property source. Returning [null]
+2018-05-26 18:22:28  [ main:519 ] - [ DEBUG ]  Searching for key 'jdbc.user' in [localProperties]
+2018-05-26 18:22:28  [ main:519 ] - [ DEBUG ]  Found key 'jdbc.user' in [localProperties] with type [String] and value 'root'
+2018-05-26 18:22:28  [ main:519 ] - [ DEBUG ]  Searching for key 'jdbc.password' in [environmentProperties]
+2018-05-26 18:22:28  [ main:519 ] - [ DEBUG ]  Searching for key 'jdbc.password' in [systemProperties]
+2018-05-26 18:22:28  [ main:519 ] - [ DEBUG ]  Searching for key 'jdbc.password' in [systemEnvironment]
+2018-05-26 18:22:28  [ main:520 ] - [ DEBUG ]  Could not find key 'jdbc.password' in any property source. Returning [null]
+2018-05-26 18:22:28  [ main:520 ] - [ DEBUG ]  Searching for key 'jdbc.password' in [localProperties]
+2018-05-26 18:22:28  [ main:520 ] - [ DEBUG ]  Found key 'jdbc.password' in [localProperties] with type [String] and value 'root'
+2018-05-26 18:22:28  [ main:521 ] - [ DEBUG ]  Searching for key 'jdbc.maxTotal' in [environmentProperties]
+2018-05-26 18:22:28  [ main:521 ] - [ DEBUG ]  Searching for key 'jdbc.maxTotal' in [systemProperties]
+2018-05-26 18:22:28  [ main:521 ] - [ DEBUG ]  Searching for key 'jdbc.maxTotal' in [systemEnvironment]
+2018-05-26 18:22:28  [ main:522 ] - [ DEBUG ]  Could not find key 'jdbc.maxTotal' in any property source. Returning [null]
+2018-05-26 18:22:28  [ main:522 ] - [ DEBUG ]  Searching for key 'jdbc.maxTotal' in [localProperties]
+2018-05-26 18:22:28  [ main:522 ] - [ DEBUG ]  Found key 'jdbc.maxTotal' in [localProperties] with type [String] and value '30'
+2018-05-26 18:22:28  [ main:522 ] - [ DEBUG ]  Searching for key 'jdbc.maxIdle' in [environmentProperties]
+2018-05-26 18:22:28  [ main:523 ] - [ DEBUG ]  Searching for key 'jdbc.maxIdle' in [systemProperties]
+2018-05-26 18:22:28  [ main:523 ] - [ DEBUG ]  Searching for key 'jdbc.maxIdle' in [systemEnvironment]
+2018-05-26 18:22:28  [ main:523 ] - [ DEBUG ]  Could not find key 'jdbc.maxIdle' in any property source. Returning [null]
+2018-05-26 18:22:28  [ main:523 ] - [ DEBUG ]  Searching for key 'jdbc.maxIdle' in [localProperties]
+2018-05-26 18:22:28  [ main:523 ] - [ DEBUG ]  Found key 'jdbc.maxIdle' in [localProperties] with type [String] and value '10'
+2018-05-26 18:22:28  [ main:524 ] - [ DEBUG ]  Searching for key 'jdbc.initialSize' in [environmentProperties]
+2018-05-26 18:22:28  [ main:524 ] - [ DEBUG ]  Searching for key 'jdbc.initialSize' in [systemProperties]
+2018-05-26 18:22:28  [ main:524 ] - [ DEBUG ]  Searching for key 'jdbc.initialSize' in [systemEnvironment]
+2018-05-26 18:22:28  [ main:525 ] - [ DEBUG ]  Could not find key 'jdbc.initialSize' in any property source. Returning [null]
+2018-05-26 18:22:28  [ main:525 ] - [ DEBUG ]  Searching for key 'jdbc.initialSize' in [localProperties]
+2018-05-26 18:22:28  [ main:525 ] - [ DEBUG ]  Found key 'jdbc.initialSize' in [localProperties] with type [String] and value '5'
+2018-05-26 18:22:28  [ main:526 ] - [ DEBUG ]  Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2018-05-26 18:22:28  [ main:526 ] - [ DEBUG ]  Creating instance of bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2018-05-26 18:22:28  [ main:528 ] - [ DEBUG ]  Eagerly caching bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor' to allow for resolving potential circular references
+2018-05-26 18:22:28  [ main:528 ] - [ DEBUG ]  Finished creating instance of bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2018-05-26 18:22:28  [ main:579 ] - [ DEBUG ]  Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2018-05-26 18:22:28  [ main:579 ] - [ DEBUG ]  Creating instance of bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2018-05-26 18:22:28  [ main:580 ] - [ DEBUG ]  Eagerly caching bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor' to allow for resolving potential circular references
+2018-05-26 18:22:28  [ main:580 ] - [ DEBUG ]  Finished creating instance of bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2018-05-26 18:22:28  [ main:581 ] - [ DEBUG ]  Creating shared instance of singleton bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+2018-05-26 18:22:28  [ main:581 ] - [ DEBUG ]  Creating instance of bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+2018-05-26 18:22:28  [ main:582 ] - [ DEBUG ]  Eagerly caching bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor' to allow for resolving potential circular references
+2018-05-26 18:22:28  [ main:582 ] - [ DEBUG ]  Finished creating instance of bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+2018-05-26 18:22:28  [ main:582 ] - [ DEBUG ]  Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2018-05-26 18:22:28  [ main:582 ] - [ DEBUG ]  Creating instance of bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2018-05-26 18:22:28  [ main:586 ] - [ DEBUG ]  Eagerly caching bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor' to allow for resolving potential circular references
+2018-05-26 18:22:28  [ main:587 ] - [ DEBUG ]  Finished creating instance of bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2018-05-26 18:22:28  [ main:587 ] - [ DEBUG ]  Creating shared instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
+2018-05-26 18:22:28  [ main:587 ] - [ DEBUG ]  Creating instance of bean 'org.springframework.aop.config.internalAutoProxyCreator'
+2018-05-26 18:22:28  [ main:598 ] - [ DEBUG ]  Eagerly caching bean 'org.springframework.aop.config.internalAutoProxyCreator' to allow for resolving potential circular references
+2018-05-26 18:22:28  [ main:606 ] - [ DEBUG ]  Finished creating instance of bean 'org.springframework.aop.config.internalAutoProxyCreator'
+2018-05-26 18:22:28  [ main:610 ] - [ DEBUG ]  Unable to locate MessageSource with name 'messageSource': using default [org.springframework.context.support.DelegatingMessageSource@12c72c2]
+2018-05-26 18:22:28  [ main:613 ] - [ DEBUG ]  Unable to locate ApplicationEventMulticaster with name 'applicationEventMulticaster': using default [org.springframework.context.event.SimpleApplicationEventMulticaster@e136d3]
+2018-05-26 18:22:28  [ main:617 ] - [ INFO ]  Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@183967b: defining beans [org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0,dataSource,transactionManager,org.springframework.aop.config.internalAutoProxyCreator,org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0,org.springframework.transaction.interceptor.TransactionInterceptor#0,org.springframework.transaction.config.internalTransactionAdvisor,sqlSessionFactory,org.mybatis.spring.mapper.MapperScannerConfigurer#0,addressMapper,customerMapper,goodMapper,orderDetailMapper,orderMapper,shoppingcarMapper,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor]; root of factory hierarchy
+2018-05-26 18:22:28  [ main:617 ] - [ DEBUG ]  Returning cached instance of singleton bean 'org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0'
+2018-05-26 18:22:28  [ main:617 ] - [ DEBUG ]  Creating shared instance of singleton bean 'dataSource'
+2018-05-26 18:22:28  [ main:617 ] - [ DEBUG ]  Creating instance of bean 'dataSource'
+2018-05-26 18:22:28  [ main:638 ] - [ DEBUG ]  Eagerly caching bean 'dataSource' to allow for resolving potential circular references
+2018-05-26 18:22:28  [ main:661 ] - [ DEBUG ]  Creating shared instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+2018-05-26 18:22:28  [ main:661 ] - [ DEBUG ]  Creating instance of bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+2018-05-26 18:22:28  [ main:663 ] - [ DEBUG ]  Eagerly caching bean 'org.springframework.transaction.config.internalTransactionAdvisor' to allow for resolving potential circular references
+2018-05-26 18:22:28  [ main:668 ] - [ DEBUG ]  Creating shared instance of singleton bean 'org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0'
+2018-05-26 18:22:28  [ main:668 ] - [ DEBUG ]  Creating instance of bean 'org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0'
+2018-05-26 18:22:28  [ main:672 ] - [ DEBUG ]  Eagerly caching bean 'org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0' to allow for resolving potential circular references
+2018-05-26 18:22:28  [ main:676 ] - [ DEBUG ]  Skipping currently created advisor 'org.springframework.transaction.config.internalTransactionAdvisor'
+2018-05-26 18:22:28  [ main:679 ] - [ DEBUG ]  Finished creating instance of bean 'org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0'
+2018-05-26 18:22:28  [ main:679 ] - [ DEBUG ]  Finished creating instance of bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+2018-05-26 18:22:28  [ main:685 ] - [ DEBUG ]  Finished creating instance of bean 'dataSource'
+2018-05-26 18:22:28  [ main:685 ] - [ DEBUG ]  Creating shared instance of singleton bean 'transactionManager'
+2018-05-26 18:22:28  [ main:686 ] - [ DEBUG ]  Creating instance of bean 'transactionManager'
+2018-05-26 18:22:28  [ main:693 ] - [ DEBUG ]  Eagerly caching bean 'transactionManager' to allow for resolving potential circular references
+2018-05-26 18:22:28  [ main:696 ] - [ DEBUG ]  Returning cached instance of singleton bean 'dataSource'
+2018-05-26 18:22:28  [ main:698 ] - [ DEBUG ]  Invoking afterPropertiesSet() on bean with name 'transactionManager'
+2018-05-26 18:22:28  [ main:699 ] - [ DEBUG ]  Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+2018-05-26 18:22:28  [ main:700 ] - [ DEBUG ]  Finished creating instance of bean 'transactionManager'
+2018-05-26 18:22:28  [ main:700 ] - [ DEBUG ]  Returning cached instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
+2018-05-26 18:22:28  [ main:700 ] - [ DEBUG ]  Returning cached instance of singleton bean 'org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0'
+2018-05-26 18:22:28  [ main:700 ] - [ DEBUG ]  Creating shared instance of singleton bean 'org.springframework.transaction.interceptor.TransactionInterceptor#0'
+2018-05-26 18:22:28  [ main:700 ] - [ DEBUG ]  Creating instance of bean 'org.springframework.transaction.interceptor.TransactionInterceptor#0'
+2018-05-26 18:22:28  [ main:702 ] - [ DEBUG ]  Eagerly caching bean 'org.springframework.transaction.interceptor.TransactionInterceptor#0' to allow for resolving potential circular references
+2018-05-26 18:22:28  [ main:706 ] - [ DEBUG ]  Returning cached instance of singleton bean 'org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0'
+2018-05-26 18:22:28  [ main:706 ] - [ DEBUG ]  Invoking afterPropertiesSet() on bean with name 'org.springframework.transaction.interceptor.TransactionInterceptor#0'
+2018-05-26 18:22:28  [ main:707 ] - [ DEBUG ]  Finished creating instance of bean 'org.springframework.transaction.interceptor.TransactionInterceptor#0'
+2018-05-26 18:22:28  [ main:707 ] - [ DEBUG ]  Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+2018-05-26 18:22:28  [ main:710 ] - [ DEBUG ]  Creating shared instance of singleton bean 'sqlSessionFactory'
+2018-05-26 18:22:28  [ main:710 ] - [ DEBUG ]  Creating instance of bean 'sqlSessionFactory'
+2018-05-26 18:22:28  [ main:725 ] - [ DEBUG ]  Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2018-05-26 18:22:28  [ main:732 ] - [ DEBUG ]  Eagerly caching bean 'sqlSessionFactory' to allow for resolving potential circular references
+2018-05-26 18:22:28  [ main:737 ] - [ DEBUG ]  Returning cached instance of singleton bean 'dataSource'
+2018-05-26 18:22:28  [ main:737 ] - [ DEBUG ]  Invoking afterPropertiesSet() on bean with name 'sqlSessionFactory'
+2018-05-26 18:22:28  [ main:837 ] - [ DEBUG ]  Class not found: org.jboss.vfs.VFS
+2018-05-26 18:22:28  [ main:837 ] - [ DEBUG ]  JBoss 6 VFS API is not available in this environment.
+2018-05-26 18:22:28  [ main:838 ] - [ DEBUG ]  Class not found: org.jboss.vfs.VirtualFile
+2018-05-26 18:22:28  [ main:838 ] - [ DEBUG ]  VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+2018-05-26 18:22:28  [ main:839 ] - [ DEBUG ]  Using VFS adapter org.apache.ibatis.io.DefaultVFS
+2018-05-26 18:22:28  [ main:840 ] - [ DEBUG ]  Find JAR URL: file:/C:/Users/Administrator/eclipse-workspace/soapDiyDemo/build/classes/com/soapdiy/po
+2018-05-26 18:22:28  [ main:840 ] - [ DEBUG ]  Not a JAR: file:/C:/Users/Administrator/eclipse-workspace/soapDiyDemo/build/classes/com/soapdiy/po
+2018-05-26 18:22:28  [ main:879 ] - [ DEBUG ]  Reader entry: Address.class
+2018-05-26 18:22:28  [ main:880 ] - [ DEBUG ]  Reader entry: Customer.class
+2018-05-26 18:22:28  [ main:881 ] - [ DEBUG ]  Reader entry: Good.class
+2018-05-26 18:22:28  [ main:882 ] - [ DEBUG ]  Reader entry: GoodCustom.class
+2018-05-26 18:22:28  [ main:883 ] - [ DEBUG ]  Reader entry: Order.class
+2018-05-26 18:22:28  [ main:883 ] - [ DEBUG ]  Reader entry: OrderDetail.class
+2018-05-26 18:22:28  [ main:884 ] - [ DEBUG ]  Reader entry: Shoppingcar.class
+2018-05-26 18:22:28  [ main:885 ] - [ DEBUG ]  Listing file:/C:/Users/Administrator/eclipse-workspace/soapDiyDemo/build/classes/com/soapdiy/po
+2018-05-26 18:22:28  [ main:885 ] - [ DEBUG ]  Find JAR URL: file:/C:/Users/Administrator/eclipse-workspace/soapDiyDemo/build/classes/com/soapdiy/po/Address.class
+2018-05-26 18:22:28  [ main:885 ] - [ DEBUG ]  Not a JAR: file:/C:/Users/Administrator/eclipse-workspace/soapDiyDemo/build/classes/com/soapdiy/po/Address.class
+2018-05-26 18:22:28  [ main:886 ] - [ DEBUG ]  Reader entry: ����   4 O  com/soapdiy/po/Address  java/lang/Object add_id I customer Lcom/soapdiy/po/Customer; 	telephone name Ljava/lang/String; address <init> ()V Code
+2018-05-26 18:22:28  [ main:887 ] - [ DEBUG ]  Find JAR URL: file:/C:/Users/Administrator/eclipse-workspace/soapDiyDemo/build/classes/com/soapdiy/po/Customer.class
+2018-05-26 18:22:28  [ main:887 ] - [ DEBUG ]  Not a JAR: file:/C:/Users/Administrator/eclipse-workspace/soapDiyDemo/build/classes/com/soapdiy/po/Customer.class
+2018-05-26 18:22:28  [ main:888 ] - [ DEBUG ]  Reader entry: ����   4 B  com/soapdiy/po/Customer  java/lang/Object c_id I username Ljava/lang/String; password 	telephone <init> ()V Code
+2018-05-26 18:22:28  [ main:889 ] - [ DEBUG ]  Find JAR URL: file:/C:/Users/Administrator/eclipse-workspace/soapDiyDemo/build/classes/com/soapdiy/po/Good.class
+2018-05-26 18:22:28  [ main:889 ] - [ DEBUG ]  Not a JAR: file:/C:/Users/Administrator/eclipse-workspace/soapDiyDemo/build/classes/com/soapdiy/po/Good.class
+2018-05-26 18:22:28  [ main:890 ] - [ DEBUG ]  Reader entry: ����   4 r  com/soapdiy/po/Good  java/lang/Object g_id I soap Ljava/lang/String; color smell shape power flower bag note price D <init> ()V Code
+2018-05-26 18:22:28  [ main:890 ] - [ DEBUG ]  Find JAR URL: file:/C:/Users/Administrator/eclipse-workspace/soapDiyDemo/build/classes/com/soapdiy/po/GoodCustom.class
+2018-05-26 18:22:28  [ main:891 ] - [ DEBUG ]  Not a JAR: file:/C:/Users/Administrator/eclipse-workspace/soapDiyDemo/build/classes/com/soapdiy/po/GoodCustom.class
+2018-05-26 18:22:28  [ main:892 ] - [ DEBUG ]  Reader entry: ����   4   com/soapdiy/po/GoodCustom  java/lang/Object goodList Ljava/util/List; 	Signature 'Ljava/util/List<Lcom/soapdiy/po/Good;>; <init> ()V Code
+2018-05-26 18:22:28  [ main:892 ] - [ DEBUG ]  Find JAR URL: file:/C:/Users/Administrator/eclipse-workspace/soapDiyDemo/build/classes/com/soapdiy/po/Order.class
+2018-05-26 18:22:28  [ main:892 ] - [ DEBUG ]  Not a JAR: file:/C:/Users/Administrator/eclipse-workspace/soapDiyDemo/build/classes/com/soapdiy/po/Order.class
+2018-05-26 18:22:28  [ main:893 ] - [ DEBUG ]  Reader entry: ����   4 a  com/soapdiy/po/Order  java/lang/Object o_id I customer Lcom/soapdiy/po/Customer; address Lcom/soapdiy/po/Address; money D date Ljava/util/Date; state <init> ()V Code
+2018-05-26 18:22:28  [ main:894 ] - [ DEBUG ]  Find JAR URL: file:/C:/Users/Administrator/eclipse-workspace/soapDiyDemo/build/classes/com/soapdiy/po/OrderDetail.class
+2018-05-26 18:22:28  [ main:894 ] - [ DEBUG ]  Not a JAR: file:/C:/Users/Administrator/eclipse-workspace/soapDiyDemo/build/classes/com/soapdiy/po/OrderDetail.class
+2018-05-26 18:22:28  [ main:895 ] - [ DEBUG ]  Reader entry: ����   4 Q  com/soapdiy/po/OrderDetail  java/lang/Object od_id I order Lcom/soapdiy/po/Order; good Lcom/soapdiy/po/Good; count state <init> ()V Code
+2018-05-26 18:22:28  [ main:895 ] - [ DEBUG ]  Find JAR URL: file:/C:/Users/Administrator/eclipse-workspace/soapDiyDemo/build/classes/com/soapdiy/po/Shoppingcar.class
+2018-05-26 18:22:28  [ main:895 ] - [ DEBUG ]  Not a JAR: file:/C:/Users/Administrator/eclipse-workspace/soapDiyDemo/build/classes/com/soapdiy/po/Shoppingcar.class
+2018-05-26 18:22:28  [ main:897 ] - [ DEBUG ]  Reader entry: ����   4 J  com/soapdiy/po/Shoppingcar  java/lang/Object sh_id I customer Lcom/soapdiy/po/Customer; good Lcom/soapdiy/po/Good; count <init> ()V Code
+2018-05-26 18:22:28  [ main:897 ] - [ DEBUG ]  Checking to see if class com.soapdiy.po.Address matches criteria [is assignable to Object]
+2018-05-26 18:22:28  [ main:899 ] - [ DEBUG ]  Checking to see if class com.soapdiy.po.Customer matches criteria [is assignable to Object]
+2018-05-26 18:22:28  [ main:900 ] - [ DEBUG ]  Checking to see if class com.soapdiy.po.Good matches criteria [is assignable to Object]
+2018-05-26 18:22:28  [ main:901 ] - [ DEBUG ]  Checking to see if class com.soapdiy.po.GoodCustom matches criteria [is assignable to Object]
+2018-05-26 18:22:28  [ main:902 ] - [ DEBUG ]  Checking to see if class com.soapdiy.po.Order matches criteria [is assignable to Object]
+2018-05-26 18:22:28  [ main:904 ] - [ DEBUG ]  Checking to see if class com.soapdiy.po.OrderDetail matches criteria [is assignable to Object]
+2018-05-26 18:22:28  [ main:905 ] - [ DEBUG ]  Checking to see if class com.soapdiy.po.Shoppingcar matches criteria [is assignable to Object]
+2018-05-26 18:22:28  [ main:911 ] - [ DEBUG ]  Parsed configuration file: 'class path resource [mybatis-config.xml]'
+2018-05-26 18:22:28  [ main:912 ] - [ DEBUG ]  Property 'mapperLocations' was not specified or no matching resources found
+2018-05-26 18:22:28  [ main:914 ] - [ DEBUG ]  Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+2018-05-26 18:22:28  [ main:916 ] - [ DEBUG ]  Finished creating instance of bean 'sqlSessionFactory'
+2018-05-26 18:22:28  [ main:917 ] - [ DEBUG ]  Returning cached instance of singleton bean 'org.mybatis.spring.mapper.MapperScannerConfigurer#0'
+2018-05-26 18:22:28  [ main:917 ] - [ DEBUG ]  Creating shared instance of singleton bean 'addressMapper'
+2018-05-26 18:22:28  [ main:917 ] - [ DEBUG ]  Creating instance of bean 'addressMapper'
+2018-05-26 18:22:28  [ main:925 ] - [ DEBUG ]  Eagerly caching bean 'addressMapper' to allow for resolving potential circular references
+2018-05-26 18:22:28  [ main:929 ] - [ DEBUG ]  Returning cached instance of singleton bean 'sqlSessionFactory'
+2018-05-26 18:22:28  [ main:930 ] - [ DEBUG ]  Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+2018-05-26 18:22:28  [ main:941 ] - [ DEBUG ]  Invoking afterPropertiesSet() on bean with name 'addressMapper'
+2018-05-26 18:22:28  [ main:1021 ] - [ DEBUG ]  Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+2018-05-26 18:22:28  [ main:1021 ] - [ DEBUG ]  Finished creating instance of bean 'addressMapper'
+2018-05-26 18:22:28  [ main:1021 ] - [ DEBUG ]  Creating shared instance of singleton bean 'customerMapper'
+2018-05-26 18:22:28  [ main:1022 ] - [ DEBUG ]  Creating instance of bean 'customerMapper'
+2018-05-26 18:22:28  [ main:1023 ] - [ DEBUG ]  Eagerly caching bean 'customerMapper' to allow for resolving potential circular references
+2018-05-26 18:22:28  [ main:1024 ] - [ DEBUG ]  Returning cached instance of singleton bean 'sqlSessionFactory'
+2018-05-26 18:22:28  [ main:1025 ] - [ DEBUG ]  Invoking afterPropertiesSet() on bean with name 'customerMapper'
+2018-05-26 18:22:29  [ main:1034 ] - [ DEBUG ]  Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+2018-05-26 18:22:29  [ main:1034 ] - [ DEBUG ]  Finished creating instance of bean 'customerMapper'
+2018-05-26 18:22:29  [ main:1035 ] - [ DEBUG ]  Creating shared instance of singleton bean 'goodMapper'
+2018-05-26 18:22:29  [ main:1035 ] - [ DEBUG ]  Creating instance of bean 'goodMapper'
+2018-05-26 18:22:29  [ main:1036 ] - [ DEBUG ]  Eagerly caching bean 'goodMapper' to allow for resolving potential circular references
+2018-05-26 18:22:29  [ main:1037 ] - [ DEBUG ]  Returning cached instance of singleton bean 'sqlSessionFactory'
+2018-05-26 18:22:29  [ main:1037 ] - [ DEBUG ]  Invoking afterPropertiesSet() on bean with name 'goodMapper'
+2018-05-26 18:22:29  [ main:1048 ] - [ DEBUG ]  Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+2018-05-26 18:22:29  [ main:1049 ] - [ DEBUG ]  Finished creating instance of bean 'goodMapper'
+2018-05-26 18:22:29  [ main:1049 ] - [ DEBUG ]  Creating shared instance of singleton bean 'orderDetailMapper'
+2018-05-26 18:22:29  [ main:1049 ] - [ DEBUG ]  Creating instance of bean 'orderDetailMapper'
+2018-05-26 18:22:29  [ main:1050 ] - [ DEBUG ]  Eagerly caching bean 'orderDetailMapper' to allow for resolving potential circular references
+2018-05-26 18:22:29  [ main:1051 ] - [ DEBUG ]  Returning cached instance of singleton bean 'sqlSessionFactory'
+2018-05-26 18:22:29  [ main:1051 ] - [ DEBUG ]  Invoking afterPropertiesSet() on bean with name 'orderDetailMapper'
+2018-05-26 18:22:29  [ main:1063 ] - [ DEBUG ]  Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+2018-05-26 18:22:29  [ main:1064 ] - [ DEBUG ]  Finished creating instance of bean 'orderDetailMapper'
+2018-05-26 18:22:29  [ main:1064 ] - [ DEBUG ]  Creating shared instance of singleton bean 'orderMapper'
+2018-05-26 18:22:29  [ main:1064 ] - [ DEBUG ]  Creating instance of bean 'orderMapper'
+2018-05-26 18:22:29  [ main:1066 ] - [ DEBUG ]  Eagerly caching bean 'orderMapper' to allow for resolving potential circular references
+2018-05-26 18:22:29  [ main:1066 ] - [ DEBUG ]  Returning cached instance of singleton bean 'sqlSessionFactory'
+2018-05-26 18:22:29  [ main:1067 ] - [ DEBUG ]  Invoking afterPropertiesSet() on bean with name 'orderMapper'
+2018-05-26 18:22:29  [ main:1077 ] - [ DEBUG ]  Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+2018-05-26 18:22:29  [ main:1077 ] - [ DEBUG ]  Finished creating instance of bean 'orderMapper'
+2018-05-26 18:22:29  [ main:1077 ] - [ DEBUG ]  Creating shared instance of singleton bean 'shoppingcarMapper'
+2018-05-26 18:22:29  [ main:1078 ] - [ DEBUG ]  Creating instance of bean 'shoppingcarMapper'
+2018-05-26 18:22:29  [ main:1079 ] - [ DEBUG ]  Eagerly caching bean 'shoppingcarMapper' to allow for resolving potential circular references
+2018-05-26 18:22:29  [ main:1079 ] - [ DEBUG ]  Returning cached instance of singleton bean 'sqlSessionFactory'
+2018-05-26 18:22:29  [ main:1079 ] - [ DEBUG ]  Invoking afterPropertiesSet() on bean with name 'shoppingcarMapper'
+2018-05-26 18:22:29  [ main:1091 ] - [ DEBUG ]  Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+2018-05-26 18:22:29  [ main:1092 ] - [ DEBUG ]  Finished creating instance of bean 'shoppingcarMapper'
+2018-05-26 18:22:29  [ main:1092 ] - [ DEBUG ]  Returning cached instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2018-05-26 18:22:29  [ main:1092 ] - [ DEBUG ]  Returning cached instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2018-05-26 18:22:29  [ main:1092 ] - [ DEBUG ]  Returning cached instance of singleton bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+2018-05-26 18:22:29  [ main:1092 ] - [ DEBUG ]  Returning cached instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2018-05-26 18:22:29  [ main:1094 ] - [ DEBUG ]  Unable to locate LifecycleProcessor with name 'lifecycleProcessor': using default [org.springframework.context.support.DefaultLifecycleProcessor@ea606c]
+2018-05-26 18:22:29  [ main:1094 ] - [ DEBUG ]  Returning cached instance of singleton bean 'lifecycleProcessor'
+2018-05-26 18:22:29  [ main:1096 ] - [ DEBUG ]  Returning cached instance of singleton bean 'sqlSessionFactory'
+2018-05-26 18:22:29  [ main:1097 ] - [ DEBUG ]  Searching for key 'spring.liveBeansView.mbeanDomain' in [systemProperties]
+2018-05-26 18:22:29  [ main:1097 ] - [ DEBUG ]  Searching for key 'spring.liveBeansView.mbeanDomain' in [systemEnvironment]
+2018-05-26 18:22:29  [ main:1098 ] - [ DEBUG ]  Could not find key 'spring.liveBeansView.mbeanDomain' in any property source. Returning [null]
+2018-05-26 18:23:45  [ main:0 ] - [ DEBUG ]  Adding [systemProperties] PropertySource with lowest search precedence
+2018-05-26 18:23:45  [ main:5 ] - [ DEBUG ]  Adding [systemEnvironment] PropertySource with lowest search precedence
+2018-05-26 18:23:45  [ main:7 ] - [ DEBUG ]  Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+2018-05-26 18:23:45  [ main:13 ] - [ INFO ]  Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@33fae0: startup date [Sat May 26 18:23:45 GMT+08:00 2018]; root of context hierarchy
+2018-05-26 18:23:45  [ main:70 ] - [ DEBUG ]  Adding [systemProperties] PropertySource with lowest search precedence
+2018-05-26 18:23:45  [ main:71 ] - [ DEBUG ]  Adding [systemEnvironment] PropertySource with lowest search precedence
+2018-05-26 18:23:45  [ main:71 ] - [ DEBUG ]  Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+2018-05-26 18:23:45  [ main:85 ] - [ INFO ]  Loading XML bean definitions from class path resource [applicationContext.xml]
+2018-05-26 18:23:45  [ main:105 ] - [ DEBUG ]  Using JAXP provider [com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderFactoryImpl]
+2018-05-26 18:23:45  [ main:136 ] - [ DEBUG ]  Loading schema mappings from [META-INF/spring.schemas]
+2018-05-26 18:23:45  [ main:143 ] - [ DEBUG ]  Loaded schema mappings: {http://www.springframework.org/schema/tx/spring-tx-2.5.xsd=org/springframework/transaction/config/spring-tx-2.5.xsd, http://www.springframework.org/schema/context/spring-context-3.1.xsd=org/springframework/context/config/spring-context-3.1.xsd, http://www.springframework.org/schema/jms/spring-jms-2.5.xsd=org/springframework/jms/config/spring-jms-2.5.xsd, http://www.springframework.org/schema/util/spring-util-3.0.xsd=org/springframework/beans/factory/xml/spring-util-3.0.xsd, http://www.springframework.org/schema/tool/spring-tool.xsd=org/springframework/beans/factory/xml/spring-tool-3.2.xsd, http://www.springframework.org/schema/aop/spring-aop-3.2.xsd=org/springframework/aop/config/spring-aop-3.2.xsd, http://mybatis.org/schema/mybatis-spring-1.2.xsd=org/mybatis/spring/config/mybatis-spring-1.2.xsd, http://www.springframework.org/schema/mvc/spring-mvc-3.2.xsd=org/springframework/web/servlet/config/spring-mvc-3.2.xsd, http://www.springframework.org/schema/oxm/spring-oxm-3.0.xsd=org/springframework/oxm/config/spring-oxm-3.0.xsd, http://www.springframework.org/schema/lang/spring-lang-3.2.xsd=org/springframework/scripting/config/spring-lang-3.2.xsd, http://www.springframework.org/schema/cache/spring-cache-3.2.xsd=org/springframework/cache/config/spring-cache-3.2.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc-3.1.xsd=org/springframework/jdbc/config/spring-jdbc-3.1.xsd, http://www.springframework.org/schema/util/spring-util-2.0.xsd=org/springframework/beans/factory/xml/spring-util-2.0.xsd, http://www.springframework.org/schema/tool/spring-tool-3.2.xsd=org/springframework/beans/factory/xml/spring-tool-3.2.xsd, http://www.springframework.org/schema/context/spring-context.xsd=org/springframework/context/config/spring-context-3.2.xsd, http://www.springframework.org/schema/jee/spring-jee-3.2.xsd=org/springframework/ejb/config/spring-jee-3.2.xsd, http://www.springframework.org/schema/context/spring-context-3.0.xsd=org/springframework/context/config/spring-context-3.0.xsd, http://www.springframework.org/schema/util/spring-util-2.5.xsd=org/springframework/beans/factory/xml/spring-util-2.5.xsd, http://www.springframework.org/schema/beans/spring-beans-3.2.xsd=org/springframework/beans/factory/xml/spring-beans-3.2.xsd, http://www.springframework.org/schema/aop/spring-aop-3.1.xsd=org/springframework/aop/config/spring-aop-3.1.xsd, http://www.springframework.org/schema/mvc/spring-mvc.xsd=org/springframework/web/servlet/config/spring-mvc-3.2.xsd, http://www.springframework.org/schema/mvc/spring-mvc-3.1.xsd=org/springframework/web/servlet/config/spring-mvc-3.1.xsd, http://www.springframework.org/schema/lang/spring-lang-3.1.xsd=org/springframework/scripting/config/spring-lang-3.1.xsd, http://www.springframework.org/schema/tx/spring-tx-3.2.xsd=org/springframework/transaction/config/spring-tx-3.2.xsd, http://www.springframework.org/schema/cache/spring-cache-3.1.xsd=org/springframework/cache/config/spring-cache-3.1.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc-3.0.xsd=org/springframework/jdbc/config/spring-jdbc-3.0.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc.xsd=org/springframework/jdbc/config/spring-jdbc-3.2.xsd, http://www.springframework.org/schema/tool/spring-tool-3.1.xsd=org/springframework/beans/factory/xml/spring-tool-3.1.xsd, http://www.springframework.org/schema/jee/spring-jee-3.1.xsd=org/springframework/ejb/config/spring-jee-3.1.xsd, http://www.springframework.org/schema/task/spring-task-3.2.xsd=org/springframework/scheduling/config/spring-task-3.2.xsd, http://www.springframework.org/schema/beans/spring-beans-3.1.xsd=org/springframework/beans/factory/xml/spring-beans-3.1.xsd, http://www.springframework.org/schema/util/spring-util.xsd=org/springframework/beans/factory/xml/spring-util-3.2.xsd, http://www.springframework.org/schema/aop/spring-aop-3.0.xsd=org/springframework/aop/config/spring-aop-3.0.xsd, http://www.springframework.org/schema/jms/spring-jms-3.2.xsd=org/springframework/jms/config/spring-jms-3.2.xsd, http://www.springframework.org/schema/mvc/spring-mvc-3.0.xsd=org/springframework/web/servlet/config/spring-mvc-3.0.xsd, http://www.springframework.org/schema/beans/spring-beans.xsd=org/springframework/beans/factory/xml/spring-beans-3.2.xsd, http://www.springframework.org/schema/lang/spring-lang-3.0.xsd=org/springframework/scripting/config/spring-lang-3.0.xsd, http://www.springframework.org/schema/tx/spring-tx-3.1.xsd=org/springframework/transaction/config/spring-tx-3.1.xsd, http://mybatis.org/schema/mybatis-spring.xsd=org/mybatis/spring/config/mybatis-spring-1.2.xsd, http://www.springframework.org/schema/context/spring-context-2.5.xsd=org/springframework/context/config/spring-context-2.5.xsd, http://www.springframework.org/schema/tool/spring-tool-3.0.xsd=org/springframework/beans/factory/xml/spring-tool-3.0.xsd, http://www.springframework.org/schema/aop/spring-aop-2.0.xsd=org/springframework/aop/config/spring-aop-2.0.xsd, http://www.springframework.org/schema/jee/spring-jee-3.0.xsd=org/springframework/ejb/config/spring-jee-3.0.xsd, http://www.springframework.org/schema/task/spring-task-3.1.xsd=org/springframework/scheduling/config/spring-task-3.1.xsd, http://www.springframework.org/schema/beans/spring-beans-3.0.xsd=org/springframework/beans/factory/xml/spring-beans-3.0.xsd, http://www.springframework.org/schema/jee/spring-jee.xsd=org/springframework/ejb/config/spring-jee-3.2.xsd, http://www.springframework.org/schema/aop/spring-aop-2.5.xsd=org/springframework/aop/config/spring-aop-2.5.xsd, http://www.springframework.org/schema/jms/spring-jms.xsd=org/springframework/jms/config/spring-jms-3.2.xsd, http://www.springframework.org/schema/lang/spring-lang-2.0.xsd=org/springframework/scripting/config/spring-lang-2.0.xsd, http://www.springframework.org/schema/jms/spring-jms-3.1.xsd=org/springframework/jms/config/spring-jms-3.1.xsd, http://www.springframework.org/schema/oxm/spring-oxm.xsd=org/springframework/oxm/config/spring-oxm-3.2.xsd, http://www.springframework.org/schema/util/spring-util-3.2.xsd=org/springframework/beans/factory/xml/spring-util-3.2.xsd, http://www.springframework.org/schema/task/spring-task.xsd=org/springframework/scheduling/config/spring-task-3.2.xsd, http://www.springframework.org/schema/tool/spring-tool-2.0.xsd=org/springframework/beans/factory/xml/spring-tool-2.0.xsd, http://www.springframework.org/schema/tx/spring-tx-3.0.xsd=org/springframework/transaction/config/spring-tx-3.0.xsd, http://www.springframework.org/schema/lang/spring-lang-2.5.xsd=org/springframework/scripting/config/spring-lang-2.5.xsd, http://www.springframework.org/schema/jee/spring-jee-2.0.xsd=org/springframework/ejb/config/spring-jee-2.0.xsd, http://www.springframework.org/schema/oxm/spring-oxm-3.2.xsd=org/springframework/oxm/config/spring-oxm-3.2.xsd, http://www.springframework.org/schema/tool/spring-tool-2.5.xsd=org/springframework/beans/factory/xml/spring-tool-2.5.xsd, http://www.springframework.org/schema/jee/spring-jee-2.5.xsd=org/springframework/ejb/config/spring-jee-2.5.xsd, http://www.springframework.org/schema/task/spring-task-3.0.xsd=org/springframework/scheduling/config/spring-task-3.0.xsd, http://www.springframework.org/schema/lang/spring-lang.xsd=org/springframework/scripting/config/spring-lang-3.2.xsd, http://www.springframework.org/schema/context/spring-context-3.2.xsd=org/springframework/context/config/spring-context-3.2.xsd, http://www.springframework.org/schema/jms/spring-jms-3.0.xsd=org/springframework/jms/config/spring-jms-3.0.xsd, http://www.springframework.org/schema/util/spring-util-3.1.xsd=org/springframework/beans/factory/xml/spring-util-3.1.xsd, http://www.springframework.org/schema/beans/spring-beans-2.0.xsd=org/springframework/beans/factory/xml/spring-beans-2.0.xsd, http://www.springframework.org/schema/cache/spring-cache.xsd=org/springframework/cache/config/spring-cache-3.2.xsd, http://www.springframework.org/schema/tx/spring-tx.xsd=org/springframework/transaction/config/spring-tx-3.2.xsd, http://www.springframework.org/schema/beans/spring-beans-2.5.xsd=org/springframework/beans/factory/xml/spring-beans-2.5.xsd, http://www.springframework.org/schema/oxm/spring-oxm-3.1.xsd=org/springframework/oxm/config/spring-oxm-3.1.xsd, http://www.springframework.org/schema/tx/spring-tx-2.0.xsd=org/springframework/transaction/config/spring-tx-2.0.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc-3.2.xsd=org/springframework/jdbc/config/spring-jdbc-3.2.xsd, http://www.springframework.org/schema/aop/spring-aop.xsd=org/springframework/aop/config/spring-aop-3.2.xsd}
+2018-05-26 18:23:45  [ main:145 ] - [ DEBUG ]  Found XML schema [http://www.springframework.org/schema/beans/spring-beans.xsd] in classpath: org/springframework/beans/factory/xml/spring-beans-3.2.xsd
+2018-05-26 18:23:45  [ main:186 ] - [ DEBUG ]  Found XML schema [http://www.springframework.org/schema/context/spring-context.xsd] in classpath: org/springframework/context/config/spring-context-3.2.xsd
+2018-05-26 18:23:45  [ main:191 ] - [ DEBUG ]  Found XML schema [http://www.springframework.org/schema/tool/spring-tool-3.2.xsd] in classpath: org/springframework/beans/factory/xml/spring-tool-3.2.xsd
+2018-05-26 18:23:45  [ main:198 ] - [ DEBUG ]  Found XML schema [http://www.springframework.org/schema/tx/spring-tx.xsd] in classpath: org/springframework/transaction/config/spring-tx-3.2.xsd
+2018-05-26 18:23:45  [ main:208 ] - [ DEBUG ]  Loading bean definitions
+2018-05-26 18:23:45  [ main:223 ] - [ DEBUG ]  Loaded NamespaceHandler mappings: {http://www.springframework.org/schema/p=org.springframework.beans.factory.xml.SimplePropertyNamespaceHandler, http://www.springframework.org/schema/mvc=org.springframework.web.servlet.config.MvcNamespaceHandler, http://www.springframework.org/schema/util=org.springframework.beans.factory.xml.UtilNamespaceHandler, http://www.springframework.org/schema/jee=org.springframework.ejb.config.JeeNamespaceHandler, http://www.springframework.org/schema/aop=org.springframework.aop.config.AopNamespaceHandler, http://www.springframework.org/schema/oxm=org.springframework.oxm.config.OxmNamespaceHandler, http://www.springframework.org/schema/jdbc=org.springframework.jdbc.config.JdbcNamespaceHandler, http://www.springframework.org/schema/cache=org.springframework.cache.config.CacheNamespaceHandler, http://mybatis.org/schema/mybatis-spring=org.mybatis.spring.config.NamespaceHandler, http://www.springframework.org/schema/c=org.springframework.beans.factory.xml.SimpleConstructorNamespaceHandler, http://www.springframework.org/schema/tx=org.springframework.transaction.config.TxNamespaceHandler, http://www.springframework.org/schema/jms=org.springframework.jms.config.JmsNamespaceHandler, http://www.springframework.org/schema/task=org.springframework.scheduling.config.TaskNamespaceHandler, http://www.springframework.org/schema/lang=org.springframework.scripting.config.LangNamespaceHandler, http://www.springframework.org/schema/context=org.springframework.context.config.ContextNamespaceHandler}
+2018-05-26 18:23:45  [ main:273 ] - [ DEBUG ]  Neither XML 'id' nor 'name' specified - using generated bean name [org.mybatis.spring.mapper.MapperScannerConfigurer#0]
+2018-05-26 18:23:45  [ main:273 ] - [ DEBUG ]  Loaded 9 bean definitions from location pattern [applicationContext.xml]
+2018-05-26 18:23:45  [ main:273 ] - [ DEBUG ]  Bean factory for org.springframework.context.support.ClassPathXmlApplicationContext@33fae0: org.springframework.beans.factory.support.DefaultListableBeanFactory@183967b: defining beans [org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0,dataSource,transactionManager,org.springframework.aop.config.internalAutoProxyCreator,org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0,org.springframework.transaction.interceptor.TransactionInterceptor#0,org.springframework.transaction.config.internalTransactionAdvisor,sqlSessionFactory,org.mybatis.spring.mapper.MapperScannerConfigurer#0]; root of factory hierarchy
+2018-05-26 18:23:45  [ main:299 ] - [ DEBUG ]  Creating shared instance of singleton bean 'org.mybatis.spring.mapper.MapperScannerConfigurer#0'
+2018-05-26 18:23:45  [ main:300 ] - [ DEBUG ]  Creating instance of bean 'org.mybatis.spring.mapper.MapperScannerConfigurer#0'
+2018-05-26 18:23:45  [ main:318 ] - [ DEBUG ]  Eagerly caching bean 'org.mybatis.spring.mapper.MapperScannerConfigurer#0' to allow for resolving potential circular references
+2018-05-26 18:23:45  [ main:376 ] - [ DEBUG ]  Invoking afterPropertiesSet() on bean with name 'org.mybatis.spring.mapper.MapperScannerConfigurer#0'
+2018-05-26 18:23:45  [ main:378 ] - [ DEBUG ]  Finished creating instance of bean 'org.mybatis.spring.mapper.MapperScannerConfigurer#0'
+2018-05-26 18:23:45  [ main:384 ] - [ DEBUG ]  Adding [systemProperties] PropertySource with lowest search precedence
+2018-05-26 18:23:45  [ main:385 ] - [ DEBUG ]  Adding [systemEnvironment] PropertySource with lowest search precedence
+2018-05-26 18:23:45  [ main:385 ] - [ DEBUG ]  Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+2018-05-26 18:23:45  [ main:397 ] - [ DEBUG ]  Looking for matching resources in directory tree [C:\Users\Administrator\eclipse-workspace\soapDiyDemo\build\classes\com\soapdiy\mapper]
+2018-05-26 18:23:45  [ main:399 ] - [ DEBUG ]  Searching directory [C:\Users\Administrator\eclipse-workspace\soapDiyDemo\build\classes\com\soapdiy\mapper] for files matching pattern [C:/Users/Administrator/eclipse-workspace/soapDiyDemo/build/classes/com/soapdiy/mapper/**/*.class]
+2018-05-26 18:23:45  [ main:412 ] - [ DEBUG ]  Resolved location pattern [classpath*:com/soapdiy/mapper/**/*.class] to resources [file [C:\Users\Administrator\eclipse-workspace\soapDiyDemo\build\classes\com\soapdiy\mapper\AddressMapper.class], file [C:\Users\Administrator\eclipse-workspace\soapDiyDemo\build\classes\com\soapdiy\mapper\CustomerMapper.class], file [C:\Users\Administrator\eclipse-workspace\soapDiyDemo\build\classes\com\soapdiy\mapper\GoodMapper.class], file [C:\Users\Administrator\eclipse-workspace\soapDiyDemo\build\classes\com\soapdiy\mapper\OrderDetailMapper.class], file [C:\Users\Administrator\eclipse-workspace\soapDiyDemo\build\classes\com\soapdiy\mapper\OrderMapper.class], file [C:\Users\Administrator\eclipse-workspace\soapDiyDemo\build\classes\com\soapdiy\mapper\ShoppingcarMapper.class]]
+2018-05-26 18:23:45  [ main:432 ] - [ DEBUG ]  Identified candidate component class: file [C:\Users\Administrator\eclipse-workspace\soapDiyDemo\build\classes\com\soapdiy\mapper\AddressMapper.class]
+2018-05-26 18:23:45  [ main:433 ] - [ DEBUG ]  Identified candidate component class: file [C:\Users\Administrator\eclipse-workspace\soapDiyDemo\build\classes\com\soapdiy\mapper\CustomerMapper.class]
+2018-05-26 18:23:45  [ main:434 ] - [ DEBUG ]  Identified candidate component class: file [C:\Users\Administrator\eclipse-workspace\soapDiyDemo\build\classes\com\soapdiy\mapper\GoodMapper.class]
+2018-05-26 18:23:45  [ main:435 ] - [ DEBUG ]  Identified candidate component class: file [C:\Users\Administrator\eclipse-workspace\soapDiyDemo\build\classes\com\soapdiy\mapper\OrderDetailMapper.class]
+2018-05-26 18:23:45  [ main:436 ] - [ DEBUG ]  Identified candidate component class: file [C:\Users\Administrator\eclipse-workspace\soapDiyDemo\build\classes\com\soapdiy\mapper\OrderMapper.class]
+2018-05-26 18:23:45  [ main:438 ] - [ DEBUG ]  Identified candidate component class: file [C:\Users\Administrator\eclipse-workspace\soapDiyDemo\build\classes\com\soapdiy\mapper\ShoppingcarMapper.class]
+2018-05-26 18:23:45  [ main:442 ] - [ DEBUG ]  Creating MapperFactoryBean with name 'addressMapper' and 'com.soapdiy.mapper.AddressMapper' mapperInterface
+2018-05-26 18:23:45  [ main:443 ] - [ DEBUG ]  Creating MapperFactoryBean with name 'customerMapper' and 'com.soapdiy.mapper.CustomerMapper' mapperInterface
+2018-05-26 18:23:45  [ main:444 ] - [ DEBUG ]  Creating MapperFactoryBean with name 'goodMapper' and 'com.soapdiy.mapper.GoodMapper' mapperInterface
+2018-05-26 18:23:45  [ main:444 ] - [ DEBUG ]  Creating MapperFactoryBean with name 'orderDetailMapper' and 'com.soapdiy.mapper.OrderDetailMapper' mapperInterface
+2018-05-26 18:23:45  [ main:444 ] - [ DEBUG ]  Creating MapperFactoryBean with name 'orderMapper' and 'com.soapdiy.mapper.OrderMapper' mapperInterface
+2018-05-26 18:23:45  [ main:444 ] - [ DEBUG ]  Creating MapperFactoryBean with name 'shoppingcarMapper' and 'com.soapdiy.mapper.ShoppingcarMapper' mapperInterface
+2018-05-26 18:23:45  [ main:451 ] - [ DEBUG ]  Creating shared instance of singleton bean 'org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0'
+2018-05-26 18:23:45  [ main:451 ] - [ DEBUG ]  Creating instance of bean 'org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0'
+2018-05-26 18:23:45  [ main:454 ] - [ DEBUG ]  Eagerly caching bean 'org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0' to allow for resolving potential circular references
+2018-05-26 18:23:45  [ main:463 ] - [ DEBUG ]  Finished creating instance of bean 'org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0'
+2018-05-26 18:23:45  [ main:463 ] - [ DEBUG ]  Adding [environmentProperties] PropertySource with lowest search precedence
+2018-05-26 18:23:45  [ main:464 ] - [ INFO ]  Loading properties file from class path resource [db.properties]
+2018-05-26 18:23:45  [ main:465 ] - [ DEBUG ]  Adding [localProperties] PropertySource with lowest search precedence
+2018-05-26 18:23:45  [ main:467 ] - [ DEBUG ]  Searching for key 'jdbc.driver' in [environmentProperties]
+2018-05-26 18:23:45  [ main:468 ] - [ DEBUG ]  Searching for key 'jdbc.driver' in [systemProperties]
+2018-05-26 18:23:45  [ main:468 ] - [ DEBUG ]  Searching for key 'jdbc.driver' in [systemEnvironment]
+2018-05-26 18:23:45  [ main:469 ] - [ DEBUG ]  Could not find key 'jdbc.driver' in any property source. Returning [null]
+2018-05-26 18:23:45  [ main:469 ] - [ DEBUG ]  Searching for key 'jdbc.driver' in [localProperties]
+2018-05-26 18:23:45  [ main:469 ] - [ DEBUG ]  Found key 'jdbc.driver' in [localProperties] with type [String] and value 'com.mysql.jdbc.Driver'
+2018-05-26 18:23:45  [ main:471 ] - [ DEBUG ]  Searching for key 'jdbc.url' in [environmentProperties]
+2018-05-26 18:23:45  [ main:471 ] - [ DEBUG ]  Searching for key 'jdbc.url' in [systemProperties]
+2018-05-26 18:23:45  [ main:472 ] - [ DEBUG ]  Searching for key 'jdbc.url' in [systemEnvironment]
+2018-05-26 18:23:45  [ main:472 ] - [ DEBUG ]  Could not find key 'jdbc.url' in any property source. Returning [null]
+2018-05-26 18:23:45  [ main:472 ] - [ DEBUG ]  Searching for key 'jdbc.url' in [localProperties]
+2018-05-26 18:23:45  [ main:472 ] - [ DEBUG ]  Found key 'jdbc.url' in [localProperties] with type [String] and value 'jdbc:mysql://localhost:3306/shopping?useSSL=false'
+2018-05-26 18:23:45  [ main:473 ] - [ DEBUG ]  Searching for key 'jdbc.user' in [environmentProperties]
+2018-05-26 18:23:45  [ main:473 ] - [ DEBUG ]  Searching for key 'jdbc.user' in [systemProperties]
+2018-05-26 18:23:45  [ main:473 ] - [ DEBUG ]  Searching for key 'jdbc.user' in [systemEnvironment]
+2018-05-26 18:23:45  [ main:473 ] - [ DEBUG ]  Could not find key 'jdbc.user' in any property source. Returning [null]
+2018-05-26 18:23:45  [ main:474 ] - [ DEBUG ]  Searching for key 'jdbc.user' in [localProperties]
+2018-05-26 18:23:45  [ main:474 ] - [ DEBUG ]  Found key 'jdbc.user' in [localProperties] with type [String] and value 'root'
+2018-05-26 18:23:45  [ main:474 ] - [ DEBUG ]  Searching for key 'jdbc.password' in [environmentProperties]
+2018-05-26 18:23:45  [ main:474 ] - [ DEBUG ]  Searching for key 'jdbc.password' in [systemProperties]
+2018-05-26 18:23:45  [ main:474 ] - [ DEBUG ]  Searching for key 'jdbc.password' in [systemEnvironment]
+2018-05-26 18:23:45  [ main:475 ] - [ DEBUG ]  Could not find key 'jdbc.password' in any property source. Returning [null]
+2018-05-26 18:23:45  [ main:475 ] - [ DEBUG ]  Searching for key 'jdbc.password' in [localProperties]
+2018-05-26 18:23:45  [ main:475 ] - [ DEBUG ]  Found key 'jdbc.password' in [localProperties] with type [String] and value 'root'
+2018-05-26 18:23:45  [ main:476 ] - [ DEBUG ]  Searching for key 'jdbc.maxTotal' in [environmentProperties]
+2018-05-26 18:23:45  [ main:476 ] - [ DEBUG ]  Searching for key 'jdbc.maxTotal' in [systemProperties]
+2018-05-26 18:23:45  [ main:476 ] - [ DEBUG ]  Searching for key 'jdbc.maxTotal' in [systemEnvironment]
+2018-05-26 18:23:45  [ main:476 ] - [ DEBUG ]  Could not find key 'jdbc.maxTotal' in any property source. Returning [null]
+2018-05-26 18:23:45  [ main:477 ] - [ DEBUG ]  Searching for key 'jdbc.maxTotal' in [localProperties]
+2018-05-26 18:23:45  [ main:477 ] - [ DEBUG ]  Found key 'jdbc.maxTotal' in [localProperties] with type [String] and value '30'
+2018-05-26 18:23:45  [ main:477 ] - [ DEBUG ]  Searching for key 'jdbc.maxIdle' in [environmentProperties]
+2018-05-26 18:23:45  [ main:477 ] - [ DEBUG ]  Searching for key 'jdbc.maxIdle' in [systemProperties]
+2018-05-26 18:23:45  [ main:478 ] - [ DEBUG ]  Searching for key 'jdbc.maxIdle' in [systemEnvironment]
+2018-05-26 18:23:45  [ main:478 ] - [ DEBUG ]  Could not find key 'jdbc.maxIdle' in any property source. Returning [null]
+2018-05-26 18:23:45  [ main:478 ] - [ DEBUG ]  Searching for key 'jdbc.maxIdle' in [localProperties]
+2018-05-26 18:23:45  [ main:478 ] - [ DEBUG ]  Found key 'jdbc.maxIdle' in [localProperties] with type [String] and value '10'
+2018-05-26 18:23:45  [ main:478 ] - [ DEBUG ]  Searching for key 'jdbc.initialSize' in [environmentProperties]
+2018-05-26 18:23:45  [ main:479 ] - [ DEBUG ]  Searching for key 'jdbc.initialSize' in [systemProperties]
+2018-05-26 18:23:45  [ main:479 ] - [ DEBUG ]  Searching for key 'jdbc.initialSize' in [systemEnvironment]
+2018-05-26 18:23:45  [ main:479 ] - [ DEBUG ]  Could not find key 'jdbc.initialSize' in any property source. Returning [null]
+2018-05-26 18:23:45  [ main:479 ] - [ DEBUG ]  Searching for key 'jdbc.initialSize' in [localProperties]
+2018-05-26 18:23:45  [ main:480 ] - [ DEBUG ]  Found key 'jdbc.initialSize' in [localProperties] with type [String] and value '5'
+2018-05-26 18:23:45  [ main:481 ] - [ DEBUG ]  Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2018-05-26 18:23:45  [ main:481 ] - [ DEBUG ]  Creating instance of bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2018-05-26 18:23:45  [ main:483 ] - [ DEBUG ]  Eagerly caching bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor' to allow for resolving potential circular references
+2018-05-26 18:23:45  [ main:483 ] - [ DEBUG ]  Finished creating instance of bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2018-05-26 18:23:45  [ main:529 ] - [ DEBUG ]  Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2018-05-26 18:23:45  [ main:530 ] - [ DEBUG ]  Creating instance of bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2018-05-26 18:23:45  [ main:530 ] - [ DEBUG ]  Eagerly caching bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor' to allow for resolving potential circular references
+2018-05-26 18:23:45  [ main:531 ] - [ DEBUG ]  Finished creating instance of bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2018-05-26 18:23:45  [ main:531 ] - [ DEBUG ]  Creating shared instance of singleton bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+2018-05-26 18:23:45  [ main:531 ] - [ DEBUG ]  Creating instance of bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+2018-05-26 18:23:45  [ main:532 ] - [ DEBUG ]  Eagerly caching bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor' to allow for resolving potential circular references
+2018-05-26 18:23:45  [ main:532 ] - [ DEBUG ]  Finished creating instance of bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+2018-05-26 18:23:45  [ main:532 ] - [ DEBUG ]  Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2018-05-26 18:23:45  [ main:532 ] - [ DEBUG ]  Creating instance of bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2018-05-26 18:23:45  [ main:538 ] - [ DEBUG ]  Eagerly caching bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor' to allow for resolving potential circular references
+2018-05-26 18:23:45  [ main:538 ] - [ DEBUG ]  Finished creating instance of bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2018-05-26 18:23:45  [ main:539 ] - [ DEBUG ]  Creating shared instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
+2018-05-26 18:23:45  [ main:539 ] - [ DEBUG ]  Creating instance of bean 'org.springframework.aop.config.internalAutoProxyCreator'
+2018-05-26 18:23:45  [ main:550 ] - [ DEBUG ]  Eagerly caching bean 'org.springframework.aop.config.internalAutoProxyCreator' to allow for resolving potential circular references
+2018-05-26 18:23:45  [ main:560 ] - [ DEBUG ]  Finished creating instance of bean 'org.springframework.aop.config.internalAutoProxyCreator'
+2018-05-26 18:23:45  [ main:563 ] - [ DEBUG ]  Unable to locate MessageSource with name 'messageSource': using default [org.springframework.context.support.DelegatingMessageSource@12c72c2]
+2018-05-26 18:23:45  [ main:565 ] - [ DEBUG ]  Unable to locate ApplicationEventMulticaster with name 'applicationEventMulticaster': using default [org.springframework.context.event.SimpleApplicationEventMulticaster@e136d3]
+2018-05-26 18:23:45  [ main:567 ] - [ INFO ]  Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@183967b: defining beans [org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0,dataSource,transactionManager,org.springframework.aop.config.internalAutoProxyCreator,org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0,org.springframework.transaction.interceptor.TransactionInterceptor#0,org.springframework.transaction.config.internalTransactionAdvisor,sqlSessionFactory,org.mybatis.spring.mapper.MapperScannerConfigurer#0,addressMapper,customerMapper,goodMapper,orderDetailMapper,orderMapper,shoppingcarMapper,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor]; root of factory hierarchy
+2018-05-26 18:23:45  [ main:568 ] - [ DEBUG ]  Returning cached instance of singleton bean 'org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0'
+2018-05-26 18:23:45  [ main:568 ] - [ DEBUG ]  Creating shared instance of singleton bean 'dataSource'
+2018-05-26 18:23:45  [ main:568 ] - [ DEBUG ]  Creating instance of bean 'dataSource'
+2018-05-26 18:23:45  [ main:588 ] - [ DEBUG ]  Eagerly caching bean 'dataSource' to allow for resolving potential circular references
+2018-05-26 18:23:45  [ main:612 ] - [ DEBUG ]  Creating shared instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+2018-05-26 18:23:45  [ main:612 ] - [ DEBUG ]  Creating instance of bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+2018-05-26 18:23:45  [ main:614 ] - [ DEBUG ]  Eagerly caching bean 'org.springframework.transaction.config.internalTransactionAdvisor' to allow for resolving potential circular references
+2018-05-26 18:23:45  [ main:618 ] - [ DEBUG ]  Creating shared instance of singleton bean 'org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0'
+2018-05-26 18:23:45  [ main:618 ] - [ DEBUG ]  Creating instance of bean 'org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0'
+2018-05-26 18:23:45  [ main:622 ] - [ DEBUG ]  Eagerly caching bean 'org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0' to allow for resolving potential circular references
+2018-05-26 18:23:45  [ main:624 ] - [ DEBUG ]  Skipping currently created advisor 'org.springframework.transaction.config.internalTransactionAdvisor'
+2018-05-26 18:23:45  [ main:626 ] - [ DEBUG ]  Finished creating instance of bean 'org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0'
+2018-05-26 18:23:45  [ main:626 ] - [ DEBUG ]  Finished creating instance of bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+2018-05-26 18:23:45  [ main:631 ] - [ DEBUG ]  Finished creating instance of bean 'dataSource'
+2018-05-26 18:23:45  [ main:631 ] - [ DEBUG ]  Creating shared instance of singleton bean 'transactionManager'
+2018-05-26 18:23:45  [ main:631 ] - [ DEBUG ]  Creating instance of bean 'transactionManager'
+2018-05-26 18:23:45  [ main:638 ] - [ DEBUG ]  Eagerly caching bean 'transactionManager' to allow for resolving potential circular references
+2018-05-26 18:23:45  [ main:641 ] - [ DEBUG ]  Returning cached instance of singleton bean 'dataSource'
+2018-05-26 18:23:45  [ main:643 ] - [ DEBUG ]  Invoking afterPropertiesSet() on bean with name 'transactionManager'
+2018-05-26 18:23:45  [ main:643 ] - [ DEBUG ]  Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+2018-05-26 18:23:45  [ main:644 ] - [ DEBUG ]  Finished creating instance of bean 'transactionManager'
+2018-05-26 18:23:45  [ main:644 ] - [ DEBUG ]  Returning cached instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
+2018-05-26 18:23:45  [ main:644 ] - [ DEBUG ]  Returning cached instance of singleton bean 'org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0'
+2018-05-26 18:23:45  [ main:644 ] - [ DEBUG ]  Creating shared instance of singleton bean 'org.springframework.transaction.interceptor.TransactionInterceptor#0'
+2018-05-26 18:23:45  [ main:644 ] - [ DEBUG ]  Creating instance of bean 'org.springframework.transaction.interceptor.TransactionInterceptor#0'
+2018-05-26 18:23:45  [ main:646 ] - [ DEBUG ]  Eagerly caching bean 'org.springframework.transaction.interceptor.TransactionInterceptor#0' to allow for resolving potential circular references
+2018-05-26 18:23:45  [ main:649 ] - [ DEBUG ]  Returning cached instance of singleton bean 'org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0'
+2018-05-26 18:23:45  [ main:650 ] - [ DEBUG ]  Invoking afterPropertiesSet() on bean with name 'org.springframework.transaction.interceptor.TransactionInterceptor#0'
+2018-05-26 18:23:45  [ main:650 ] - [ DEBUG ]  Finished creating instance of bean 'org.springframework.transaction.interceptor.TransactionInterceptor#0'
+2018-05-26 18:23:45  [ main:650 ] - [ DEBUG ]  Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+2018-05-26 18:23:45  [ main:653 ] - [ DEBUG ]  Creating shared instance of singleton bean 'sqlSessionFactory'
+2018-05-26 18:23:45  [ main:653 ] - [ DEBUG ]  Creating instance of bean 'sqlSessionFactory'
+2018-05-26 18:23:45  [ main:666 ] - [ DEBUG ]  Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2018-05-26 18:23:45  [ main:671 ] - [ DEBUG ]  Eagerly caching bean 'sqlSessionFactory' to allow for resolving potential circular references
+2018-05-26 18:23:45  [ main:676 ] - [ DEBUG ]  Returning cached instance of singleton bean 'dataSource'
+2018-05-26 18:23:45  [ main:676 ] - [ DEBUG ]  Invoking afterPropertiesSet() on bean with name 'sqlSessionFactory'
+2018-05-26 18:23:45  [ main:769 ] - [ DEBUG ]  Class not found: org.jboss.vfs.VFS
+2018-05-26 18:23:45  [ main:769 ] - [ DEBUG ]  JBoss 6 VFS API is not available in this environment.
+2018-05-26 18:23:45  [ main:774 ] - [ DEBUG ]  Class not found: org.jboss.vfs.VirtualFile
+2018-05-26 18:23:45  [ main:774 ] - [ DEBUG ]  VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+2018-05-26 18:23:45  [ main:775 ] - [ DEBUG ]  Using VFS adapter org.apache.ibatis.io.DefaultVFS
+2018-05-26 18:23:45  [ main:776 ] - [ DEBUG ]  Find JAR URL: file:/C:/Users/Administrator/eclipse-workspace/soapDiyDemo/build/classes/com/soapdiy/po
+2018-05-26 18:23:45  [ main:776 ] - [ DEBUG ]  Not a JAR: file:/C:/Users/Administrator/eclipse-workspace/soapDiyDemo/build/classes/com/soapdiy/po
+2018-05-26 18:23:45  [ main:813 ] - [ DEBUG ]  Reader entry: Address.class
+2018-05-26 18:23:45  [ main:814 ] - [ DEBUG ]  Reader entry: Customer.class
+2018-05-26 18:23:45  [ main:815 ] - [ DEBUG ]  Reader entry: Good.class
+2018-05-26 18:23:45  [ main:815 ] - [ DEBUG ]  Reader entry: GoodCustom.class
+2018-05-26 18:23:45  [ main:816 ] - [ DEBUG ]  Reader entry: Order.class
+2018-05-26 18:23:45  [ main:817 ] - [ DEBUG ]  Reader entry: OrderDetail.class
+2018-05-26 18:23:45  [ main:818 ] - [ DEBUG ]  Reader entry: Shoppingcar.class
+2018-05-26 18:23:45  [ main:818 ] - [ DEBUG ]  Listing file:/C:/Users/Administrator/eclipse-workspace/soapDiyDemo/build/classes/com/soapdiy/po
+2018-05-26 18:23:45  [ main:818 ] - [ DEBUG ]  Find JAR URL: file:/C:/Users/Administrator/eclipse-workspace/soapDiyDemo/build/classes/com/soapdiy/po/Address.class
+2018-05-26 18:23:45  [ main:819 ] - [ DEBUG ]  Not a JAR: file:/C:/Users/Administrator/eclipse-workspace/soapDiyDemo/build/classes/com/soapdiy/po/Address.class
+2018-05-26 18:23:45  [ main:820 ] - [ DEBUG ]  Reader entry: ����   4 O  com/soapdiy/po/Address  java/lang/Object add_id I customer Lcom/soapdiy/po/Customer; 	telephone name Ljava/lang/String; address <init> ()V Code
+2018-05-26 18:23:45  [ main:821 ] - [ DEBUG ]  Find JAR URL: file:/C:/Users/Administrator/eclipse-workspace/soapDiyDemo/build/classes/com/soapdiy/po/Customer.class
+2018-05-26 18:23:45  [ main:821 ] - [ DEBUG ]  Not a JAR: file:/C:/Users/Administrator/eclipse-workspace/soapDiyDemo/build/classes/com/soapdiy/po/Customer.class
+2018-05-26 18:23:45  [ main:822 ] - [ DEBUG ]  Reader entry: ����   4 B  com/soapdiy/po/Customer  java/lang/Object c_id I username Ljava/lang/String; password 	telephone <init> ()V Code
+2018-05-26 18:23:45  [ main:822 ] - [ DEBUG ]  Find JAR URL: file:/C:/Users/Administrator/eclipse-workspace/soapDiyDemo/build/classes/com/soapdiy/po/Good.class
+2018-05-26 18:23:45  [ main:822 ] - [ DEBUG ]  Not a JAR: file:/C:/Users/Administrator/eclipse-workspace/soapDiyDemo/build/classes/com/soapdiy/po/Good.class
+2018-05-26 18:23:45  [ main:824 ] - [ DEBUG ]  Reader entry: ����   4 r  com/soapdiy/po/Good  java/lang/Object g_id I soap Ljava/lang/String; color smell shape power flower bag note price D <init> ()V Code
+2018-05-26 18:23:45  [ main:824 ] - [ DEBUG ]  Find JAR URL: file:/C:/Users/Administrator/eclipse-workspace/soapDiyDemo/build/classes/com/soapdiy/po/GoodCustom.class
+2018-05-26 18:23:45  [ main:825 ] - [ DEBUG ]  Not a JAR: file:/C:/Users/Administrator/eclipse-workspace/soapDiyDemo/build/classes/com/soapdiy/po/GoodCustom.class
+2018-05-26 18:23:45  [ main:826 ] - [ DEBUG ]  Reader entry: ����   4   com/soapdiy/po/GoodCustom  java/lang/Object goodList Ljava/util/List; 	Signature 'Ljava/util/List<Lcom/soapdiy/po/Good;>; <init> ()V Code
+2018-05-26 18:23:45  [ main:826 ] - [ DEBUG ]  Find JAR URL: file:/C:/Users/Administrator/eclipse-workspace/soapDiyDemo/build/classes/com/soapdiy/po/Order.class
+2018-05-26 18:23:45  [ main:826 ] - [ DEBUG ]  Not a JAR: file:/C:/Users/Administrator/eclipse-workspace/soapDiyDemo/build/classes/com/soapdiy/po/Order.class
+2018-05-26 18:23:45  [ main:828 ] - [ DEBUG ]  Reader entry: ����   4 a  com/soapdiy/po/Order  java/lang/Object o_id I customer Lcom/soapdiy/po/Customer; address Lcom/soapdiy/po/Address; money D date Ljava/util/Date; state <init> ()V Code
+2018-05-26 18:23:45  [ main:828 ] - [ DEBUG ]  Find JAR URL: file:/C:/Users/Administrator/eclipse-workspace/soapDiyDemo/build/classes/com/soapdiy/po/OrderDetail.class
+2018-05-26 18:23:45  [ main:828 ] - [ DEBUG ]  Not a JAR: file:/C:/Users/Administrator/eclipse-workspace/soapDiyDemo/build/classes/com/soapdiy/po/OrderDetail.class
+2018-05-26 18:23:45  [ main:830 ] - [ DEBUG ]  Reader entry: ����   4 Q  com/soapdiy/po/OrderDetail  java/lang/Object od_id I order Lcom/soapdiy/po/Order; good Lcom/soapdiy/po/Good; count state <init> ()V Code
+2018-05-26 18:23:45  [ main:830 ] - [ DEBUG ]  Find JAR URL: file:/C:/Users/Administrator/eclipse-workspace/soapDiyDemo/build/classes/com/soapdiy/po/Shoppingcar.class
+2018-05-26 18:23:45  [ main:830 ] - [ DEBUG ]  Not a JAR: file:/C:/Users/Administrator/eclipse-workspace/soapDiyDemo/build/classes/com/soapdiy/po/Shoppingcar.class
+2018-05-26 18:23:45  [ main:831 ] - [ DEBUG ]  Reader entry: ����   4 J  com/soapdiy/po/Shoppingcar  java/lang/Object sh_id I customer Lcom/soapdiy/po/Customer; good Lcom/soapdiy/po/Good; count <init> ()V Code
+2018-05-26 18:23:45  [ main:832 ] - [ DEBUG ]  Checking to see if class com.soapdiy.po.Address matches criteria [is assignable to Object]
+2018-05-26 18:23:45  [ main:833 ] - [ DEBUG ]  Checking to see if class com.soapdiy.po.Customer matches criteria [is assignable to Object]
+2018-05-26 18:23:45  [ main:834 ] - [ DEBUG ]  Checking to see if class com.soapdiy.po.Good matches criteria [is assignable to Object]
+2018-05-26 18:23:45  [ main:835 ] - [ DEBUG ]  Checking to see if class com.soapdiy.po.GoodCustom matches criteria [is assignable to Object]
+2018-05-26 18:23:45  [ main:836 ] - [ DEBUG ]  Checking to see if class com.soapdiy.po.Order matches criteria [is assignable to Object]
+2018-05-26 18:23:45  [ main:837 ] - [ DEBUG ]  Checking to see if class com.soapdiy.po.OrderDetail matches criteria [is assignable to Object]
+2018-05-26 18:23:45  [ main:838 ] - [ DEBUG ]  Checking to see if class com.soapdiy.po.Shoppingcar matches criteria [is assignable to Object]
+2018-05-26 18:23:45  [ main:845 ] - [ DEBUG ]  Parsed configuration file: 'class path resource [mybatis-config.xml]'
+2018-05-26 18:23:45  [ main:846 ] - [ DEBUG ]  Property 'mapperLocations' was not specified or no matching resources found
+2018-05-26 18:23:45  [ main:847 ] - [ DEBUG ]  Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+2018-05-26 18:23:45  [ main:848 ] - [ DEBUG ]  Finished creating instance of bean 'sqlSessionFactory'
+2018-05-26 18:23:45  [ main:849 ] - [ DEBUG ]  Returning cached instance of singleton bean 'org.mybatis.spring.mapper.MapperScannerConfigurer#0'
+2018-05-26 18:23:45  [ main:849 ] - [ DEBUG ]  Creating shared instance of singleton bean 'addressMapper'
+2018-05-26 18:23:45  [ main:849 ] - [ DEBUG ]  Creating instance of bean 'addressMapper'
+2018-05-26 18:23:45  [ main:858 ] - [ DEBUG ]  Eagerly caching bean 'addressMapper' to allow for resolving potential circular references
+2018-05-26 18:23:45  [ main:862 ] - [ DEBUG ]  Returning cached instance of singleton bean 'sqlSessionFactory'
+2018-05-26 18:23:45  [ main:862 ] - [ DEBUG ]  Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+2018-05-26 18:23:45  [ main:873 ] - [ DEBUG ]  Invoking afterPropertiesSet() on bean with name 'addressMapper'
+2018-05-26 18:23:46  [ main:959 ] - [ DEBUG ]  Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+2018-05-26 18:23:46  [ main:960 ] - [ DEBUG ]  Finished creating instance of bean 'addressMapper'
+2018-05-26 18:23:46  [ main:960 ] - [ DEBUG ]  Creating shared instance of singleton bean 'customerMapper'
+2018-05-26 18:23:46  [ main:960 ] - [ DEBUG ]  Creating instance of bean 'customerMapper'
+2018-05-26 18:23:46  [ main:962 ] - [ DEBUG ]  Eagerly caching bean 'customerMapper' to allow for resolving potential circular references
+2018-05-26 18:23:46  [ main:962 ] - [ DEBUG ]  Returning cached instance of singleton bean 'sqlSessionFactory'
+2018-05-26 18:23:46  [ main:963 ] - [ DEBUG ]  Invoking afterPropertiesSet() on bean with name 'customerMapper'
+2018-05-26 18:23:46  [ main:972 ] - [ DEBUG ]  Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+2018-05-26 18:23:46  [ main:972 ] - [ DEBUG ]  Finished creating instance of bean 'customerMapper'
+2018-05-26 18:23:46  [ main:973 ] - [ DEBUG ]  Creating shared instance of singleton bean 'goodMapper'
+2018-05-26 18:23:46  [ main:973 ] - [ DEBUG ]  Creating instance of bean 'goodMapper'
+2018-05-26 18:23:46  [ main:974 ] - [ DEBUG ]  Eagerly caching bean 'goodMapper' to allow for resolving potential circular references
+2018-05-26 18:23:46  [ main:975 ] - [ DEBUG ]  Returning cached instance of singleton bean 'sqlSessionFactory'
+2018-05-26 18:23:46  [ main:975 ] - [ DEBUG ]  Invoking afterPropertiesSet() on bean with name 'goodMapper'
+2018-05-26 18:23:46  [ main:987 ] - [ DEBUG ]  Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+2018-05-26 18:23:46  [ main:987 ] - [ DEBUG ]  Finished creating instance of bean 'goodMapper'
+2018-05-26 18:23:46  [ main:988 ] - [ DEBUG ]  Creating shared instance of singleton bean 'orderDetailMapper'
+2018-05-26 18:23:46  [ main:988 ] - [ DEBUG ]  Creating instance of bean 'orderDetailMapper'
+2018-05-26 18:23:46  [ main:990 ] - [ DEBUG ]  Eagerly caching bean 'orderDetailMapper' to allow for resolving potential circular references
+2018-05-26 18:23:46  [ main:990 ] - [ DEBUG ]  Returning cached instance of singleton bean 'sqlSessionFactory'
+2018-05-26 18:23:46  [ main:990 ] - [ DEBUG ]  Invoking afterPropertiesSet() on bean with name 'orderDetailMapper'
+2018-05-26 18:23:46  [ main:1004 ] - [ DEBUG ]  Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+2018-05-26 18:23:46  [ main:1004 ] - [ DEBUG ]  Finished creating instance of bean 'orderDetailMapper'
+2018-05-26 18:23:46  [ main:1005 ] - [ DEBUG ]  Creating shared instance of singleton bean 'orderMapper'
+2018-05-26 18:23:46  [ main:1005 ] - [ DEBUG ]  Creating instance of bean 'orderMapper'
+2018-05-26 18:23:46  [ main:1007 ] - [ DEBUG ]  Eagerly caching bean 'orderMapper' to allow for resolving potential circular references
+2018-05-26 18:23:46  [ main:1007 ] - [ DEBUG ]  Returning cached instance of singleton bean 'sqlSessionFactory'
+2018-05-26 18:23:46  [ main:1007 ] - [ DEBUG ]  Invoking afterPropertiesSet() on bean with name 'orderMapper'
+2018-05-26 18:23:46  [ main:1020 ] - [ DEBUG ]  Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+2018-05-26 18:23:46  [ main:1021 ] - [ DEBUG ]  Finished creating instance of bean 'orderMapper'
+2018-05-26 18:23:46  [ main:1021 ] - [ DEBUG ]  Creating shared instance of singleton bean 'shoppingcarMapper'
+2018-05-26 18:23:46  [ main:1021 ] - [ DEBUG ]  Creating instance of bean 'shoppingcarMapper'
+2018-05-26 18:23:46  [ main:1022 ] - [ DEBUG ]  Eagerly caching bean 'shoppingcarMapper' to allow for resolving potential circular references
+2018-05-26 18:23:46  [ main:1023 ] - [ DEBUG ]  Returning cached instance of singleton bean 'sqlSessionFactory'
+2018-05-26 18:23:46  [ main:1023 ] - [ DEBUG ]  Invoking afterPropertiesSet() on bean with name 'shoppingcarMapper'
+2018-05-26 18:23:46  [ main:1036 ] - [ DEBUG ]  Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+2018-05-26 18:23:46  [ main:1036 ] - [ DEBUG ]  Finished creating instance of bean 'shoppingcarMapper'
+2018-05-26 18:23:46  [ main:1037 ] - [ DEBUG ]  Returning cached instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2018-05-26 18:23:46  [ main:1037 ] - [ DEBUG ]  Returning cached instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2018-05-26 18:23:46  [ main:1037 ] - [ DEBUG ]  Returning cached instance of singleton bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+2018-05-26 18:23:46  [ main:1037 ] - [ DEBUG ]  Returning cached instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2018-05-26 18:23:46  [ main:1039 ] - [ DEBUG ]  Unable to locate LifecycleProcessor with name 'lifecycleProcessor': using default [org.springframework.context.support.DefaultLifecycleProcessor@ea606c]
+2018-05-26 18:23:46  [ main:1039 ] - [ DEBUG ]  Returning cached instance of singleton bean 'lifecycleProcessor'
+2018-05-26 18:23:46  [ main:1041 ] - [ DEBUG ]  Returning cached instance of singleton bean 'sqlSessionFactory'
+2018-05-26 18:23:46  [ main:1042 ] - [ DEBUG ]  Searching for key 'spring.liveBeansView.mbeanDomain' in [systemProperties]
+2018-05-26 18:23:46  [ main:1043 ] - [ DEBUG ]  Searching for key 'spring.liveBeansView.mbeanDomain' in [systemEnvironment]
+2018-05-26 18:23:46  [ main:1043 ] - [ DEBUG ]  Could not find key 'spring.liveBeansView.mbeanDomain' in any property source. Returning [null]
